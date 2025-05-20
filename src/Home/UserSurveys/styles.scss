@@ -1,0 +1,60 @@
+#home-user-surveys {
+  ion-header ion-toolbar {
+    --background: transparent !important;
+
+    color: var(--ion-color-main);
+
+    ion-segment {
+      z-index: 100000000;
+      margin: 8px auto;
+
+      box-shadow:
+        -1px 2px 7px 0 #0000001a,
+        0 2px 9px 0 #3e396b1a;
+      border-radius: var(--theme-border-radius);
+      background: #fff;
+      max-width: calc(
+        100% - 20px
+      ); // -20px to match the padding of the list below
+
+      ion-label {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+      }
+
+      ion-segment-button.ios {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
+      ion-segment-button.md {
+        --padding-end: 10px;
+        --padding-start: 10px;
+      }
+    }
+  }
+
+  ion-content {
+    --padding-top: 10%;
+  }
+
+  .info-background-message {
+    ion-icon {
+      margin: 0 5px 0 8px;
+      margin-bottom: -7px;
+      border-radius: 10px;
+      background: var(--ion-color-primary);
+      padding: 5px;
+      color: white;
+    }
+  }
+
+  ion-item-sliding {
+    margin: 0px auto 15px auto;
+    box-shadow: 0 0 30px #0000001f;
+    max-width: 600px;
+  }
+}

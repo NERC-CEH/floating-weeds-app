@@ -1,0 +1,40 @@
+#home-menu {
+  ion-content {
+    --padding-top: env(safe-area-inset-top) !important;
+  }
+
+  #feedback-request {
+    box-shadow: none;
+    border-radius: var(--theme-border-radius);
+  }
+
+  .app-menu {
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 140px;
+    }
+
+    .verification-warning {
+      --background: #fcffeb;
+
+      ion-note {
+        color: #000000;
+        font-size: 1em;
+      }
+      ion-icon {
+        color: #000000 !important;
+      }
+
+      ion-button {
+        float: right;
+        color: #000000;
+        font-size: 0.9em;
+        --border-color: #000000;
+        &.md {
+          font-size: 0.7em;
+        }
+      }
+    }
+  }
+}

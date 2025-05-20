@@ -1,0 +1,12 @@
+.survey-status {
+  margin: 0;
+  max-width: 90px;
+
+  ion-badge {
+    text-transform: uppercase;
+  }
+}
+
+ion-spinner.survey-status {
+  width: 15px;
+}

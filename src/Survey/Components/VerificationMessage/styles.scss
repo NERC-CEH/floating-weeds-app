@@ -1,0 +1,43 @@
+.verification-message {
+  &.success {
+    h2,
+    div,
+    ion-icon,
+    .info-button,
+    ion-label ion-note {
+      color: var(--verification-success-dark) !important;
+      --border-color: var(--verification-success-dark) !important;
+    }
+  }
+
+  &.warning {
+    h2,
+    div,
+    ion-icon,
+    .info-button,
+    ion-label ion-note {
+      color: var(--verification-plausible-dark) !important;
+      --border-color: var(--verification-plausible-dark) !important;
+    }
+  }
+
+  &.danger {
+    h2,
+    div,
+    ion-icon,
+    .info-button,
+    ion-label ion-note {
+      color: var(--verification-rejected-dark) !important;
+      --border-color: var(--verification-rejected-dark);
+    }
+  }
+
+  .info-button {
+    &.md {
+      font-size: 0.7em;
+    }
+    &.ios {
+      font-size: 0.8em;
+    }
+  }
+}
