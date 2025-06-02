@@ -10,14 +10,58 @@ type Props = {
   occurrence?: Occurrence;
 };
 
+const species = [
+  {
+    commonName: 'Nile cabbage',
+    scientificName: 'Pistia stratiates',
+    warehouseId: '644716',
+  },
+  {
+    commonName: 'Papyrus',
+    scientificName: 'Cyperus papyrus',
+    warehouseId: '644714',
+  },
+  {
+    commonName: 'Water ferns',
+    scientificName: 'Azolla sp.',
+    warehouseId: '644678',
+  },
+  {
+    commonName: 'Water hyacinth',
+    scientificName: 'Pontederia crassipes',
+    warehouseId: '644718',
+  },
+  {
+    commonName: 'Water Lettuce',
+    scientificName: 'Pistia stratiotes',
+    warehouseId: '644722',
+  },
+  {
+    commonName: 'Watermosses',
+    scientificName: 'Salvinia sp.',
+    warehouseId: '644720',
+  },
+];
+
+const mapSpeciesToOption = (s: any) => ({
+  label: `${s.commonName} (${s.scientificName})`,
+  value: s.warehouseId,
+});
+
 const Species = ({ sample, occurrence }: Props) => {
   const { goBack } = useContext(NavContext);
 
   const onSpeciesSelected = async (value: string) => {
+    // find the selected species based on warehouseId
+    const findSpecies = (s: any) => s.warehouseId === value;
+    const selectedSpecies = species.find(findSpecies);
+
+    if (!selectedSpecies) return;
+
     const taxon: Taxon = {
-      warehouseId: '644678',
-      scientificName: value,
-      commonName: value,
+      warehouseId: value,
+      scientificName: selectedSpecies.scientificName,
+      commonName: selectedSpecies.commonName,
     };
 
     if (!occurrence) {
@@ -43,25 +87,14 @@ const Species = ({ sample, occurrence }: Props) => {
     goBack();
   };
 
+  const options = species.map(mapSpeciesToOption);
+
   return (
     <Page id="taxon-search">
       <Header title="Species" />
       <Main>
         <div className="my-5">
-          <RadioInput
-            options={[
-              { label: 'Nile cabbage (Pistia stratiates)', value: '644716' },
-              { label: 'Papyrus (Cyperus papyrus)', value: '644714' },
-              { label: 'Water ferns (Azolla sp.)', value: '644678' },
-              {
-                label: 'Water hyacinth (Pontederia crassipes)',
-                value: '644718',
-              },
-              { label: 'Water Lettuce (Pistia stratiotes)', value: '644722' },
-              { label: 'Watermosses (Salvinia sp.)', value: '644720' },
-            ]}
-            onChange={onSpeciesSelected}
-          />
+          <RadioInput options={options} onChange={onSpeciesSelected} />
         </div>
       </Main>
     </Page>
