@@ -1,4 +1,4 @@
-import { calendarOutline, bicycleOutline } from 'ionicons/icons';
+import { calendarOutline, bicycleOutline, expandOutline } from 'ionicons/icons';
 import { z, object } from 'zod';
 import { ChoiceInputT, dateFormat, GroupT, TextInputT } from '@flumens';
 import { IonIcon } from '@ionic/react';
@@ -50,6 +50,33 @@ export const activitiesGroupAttr = {
   container: 'page',
   blocks: [userActivitiesAttr, activitiesAttr],
 } as const satisfies GroupT;
+
+const certaintyValues = [
+  { title: '1', dataName: '24102' },
+  { title: '2', dataName: '24103' },
+  { title: '3', dataName: '24104' },
+  { title: '4', dataName: '24105' },
+  { title: '5', dataName: '24106' },
+] as const;
+
+export const certaintyAttr = {
+  id: 'occAttr:1194',
+  type: 'choiceInput',
+  title: 'Certainty',
+  // prefix: (<IonIcon src={bicycleOutline} className="size-6" />) as any,
+  appearance: 'button',
+  choices: certaintyValues,
+} as const satisfies ChoiceInputT;
+
+export const quantityAttr = {
+  id: 'occAttr:1195',
+  type: 'numberInput',
+  title: 'Quantity',
+  // prefix: (<IonIcon src={expandOutline} className="size-6" />) as any,
+  suffix: 'm²',
+  appearance: 'counter',
+  validation: { min: 1 },
+} as const;
 
 const survey: Survey = {
   name: 'main',

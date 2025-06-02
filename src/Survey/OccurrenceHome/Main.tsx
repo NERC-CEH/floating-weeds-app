@@ -5,7 +5,7 @@ import { IonList } from '@ionic/react';
 import Occurrence from 'models/occurrence';
 import Sample from 'models/sample';
 import VerificationMessage from 'Survey/Components/VerificationMessage';
-import { commentAttr } from 'Survey/config';
+import { certaintyAttr, commentAttr, quantityAttr } from 'Survey/config';
 import './styles.scss';
 
 type Props = {
@@ -35,6 +35,9 @@ const OccurrenceMain = ({ sample, occurrence }: Props) => {
         )}
 
         <div className="rounded-list">
+          <Block block={quantityAttr} {...recordAttrs} />
+          <Block block={certaintyAttr} {...recordAttrs} />
+
           <MenuAttrItem
             routerLink={`${url}/species`}
             disabled={isDisabled}
