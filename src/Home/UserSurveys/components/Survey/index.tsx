@@ -1,4 +1,5 @@
 import { observer } from 'mobx-react';
+import { imageOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { getRelativeDate, useAlert } from '@flumens';
 import {
@@ -7,12 +8,12 @@ import {
   IonItemSliding,
   IonItemOptions,
   IonItemOption,
+  IonIcon,
 } from '@ionic/react';
 import VerificationListStatus from 'common/Components/VerificationListStatus';
 import Sample from 'common/models/sample';
 import ErrorMessage from './components/ErrorMessage';
 import OnlineStatus from './components/OnlineStatus';
-import logo from './logo.png';
 import './styles.scss';
 
 function deleteSurvey(sample: Sample, alert: any) {
@@ -49,7 +50,9 @@ const Survey = ({ sample }: Props) => {
     const photo = speciesPhoto ? (
       <img src={speciesPhoto} />
     ) : (
-      <img src={logo} className="default-logo" />
+      <div className="flex h-full w-full items-center justify-center object-contain">
+        <IonIcon src={imageOutline} className="size-8 text-primary-600" />
+      </div>
     );
 
     return <div className="record-photo-profile">{photo}</div>;
