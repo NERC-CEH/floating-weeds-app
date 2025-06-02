@@ -1,4 +1,4 @@
-import { calendarOutline, bicycleOutline, expandOutline } from 'ionicons/icons';
+import { calendarOutline, bicycleOutline } from 'ionicons/icons';
 import { z, object } from 'zod';
 import { ChoiceInputT, dateFormat, GroupT, TextInputT } from '@flumens';
 import { IonIcon } from '@ionic/react';
