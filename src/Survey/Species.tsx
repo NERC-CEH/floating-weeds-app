@@ -50,8 +50,15 @@ const Species = ({ sample, occurrence }: Props) => {
         <div className="my-5">
           <RadioInput
             options={[
-              { value: 'species 1', label: 'species 1' },
-              { value: 'species 2', label: 'species 2' },
+              { label: 'Nile cabbage (Pistia stratiates)', value: '644716' },
+              { label: 'Papyrus (Cyperus papyrus)', value: '644714' },
+              { label: 'Water ferns (Azolla sp.)', value: '644678' },
+              {
+                label: 'Water hyacinth (Pontederia crassipes)',
+                value: '644718',
+              },
+              { label: 'Water Lettuce (Pistia stratiotes)', value: '644722' },
+              { label: 'Watermosses (Salvinia sp.)', value: '644720' },
             ]}
             onChange={onSpeciesSelected}
           />
