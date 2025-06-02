@@ -104,6 +104,7 @@ export {
 } from '@flumens/tailwind/dist/components/Map/utils';
 export { default as CheckboxInput } from '@flumens/tailwind/dist/components/Checkbox';
 export { default as NumberInput } from '@flumens/tailwind/dist/components/NumberInput';
+export { default as Select } from '@flumens/tailwind/dist/components/Select';
 export {
   default as RadioInput,
   type RadioOption,

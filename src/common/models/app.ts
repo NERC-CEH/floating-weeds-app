@@ -14,14 +14,16 @@ export interface Attrs extends ModelAttrs {
   // tips
   showSurveysDeleteTip: boolean;
   showSurveyUploadTip: boolean;
+  showLanguageTip: boolean;
 }
 
 const defaults: Attrs = {
-  language: 'en',
+  language: '',
   appSession: 0,
   sendAnalytics: true,
   showSurveysDeleteTip: true,
   showSurveyUploadTip: true,
+  showLanguageTip: true,
 
   verifiedRecordsTimestamp: null,
 

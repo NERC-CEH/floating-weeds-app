@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { observer } from 'mobx-react';
 import {
   homeOutline,
@@ -6,6 +7,7 @@ import {
   layersOutline,
   menuOutline,
 } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
 import { Route, Redirect } from 'react-router-dom';
 import {
   IonTabs,
@@ -14,6 +16,8 @@ import {
   IonTabBar,
   IonRouterOutlet,
 } from '@ionic/react';
+import { useAlert } from 'common/flumens';
+import appModel from 'common/models/app';
 import Guide from './Guide';
 import Home from './Home';
 import MapComponent from './Map';
@@ -22,7 +26,43 @@ import PendingSurveysBadge from './PendingSurveysBadge';
 import UserSurveys from './UserSurveys';
 import './styles.scss';
 
+function useLanguageTip() {
+  const alert = useAlert();
+
+  const showLanguageTip = () => {
+    if (!appModel.data.showLanguageTip) return;
+
+    const hideTip = () => {
+      appModel.data.showLanguageTip = false;
+      appModel.save();
+    };
+
+    alert({
+      message: (
+        <T>
+          The language will default to the language of your phone settings. If
+          you want to change the language go to "Settings" in the app menu and
+          select "Language".
+        </T>
+      ),
+      buttons: [
+        {
+          text: 'OK, got it',
+          role: 'cancel',
+          cssClass: 'primary',
+          handler: hideTip,
+        },
+      ],
+    });
+  };
+
+  return showLanguageTip;
+}
+
 const HomeComponent = () => {
+  const showLanguageTip = useLanguageTip();
+  useEffect(showLanguageTip, []);
+
   return (
     <>
       <IonTabs>

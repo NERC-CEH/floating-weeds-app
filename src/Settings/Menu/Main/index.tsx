@@ -5,9 +5,12 @@ import {
   shareSocialOutline,
   cloudDownloadOutline,
   cloudUploadOutline,
+  globeOutline,
 } from 'ionicons/icons';
-import { Main, useAlert, InfoMessage, Toggle } from '@flumens';
+import { Main, useAlert, InfoMessage, Toggle, Select } from '@flumens';
 import { IonIcon, IonList, IonItem, IonLabel, isPlatform } from '@ionic/react';
+import languages from 'common/languages';
+import appModel from 'common/models/app';
 import './styles.scss';
 
 function useDatabaseExportDialog(exportFn: any) {
@@ -102,11 +105,26 @@ const MenuMain = ({
   const onSendAnalyticsToggle = (checked: boolean) =>
     onToggle('sendAnalytics', checked);
 
+  // convert languages object to select options format
+  const languageOptions = Object.entries(languages)
+    .filter(([, value]) => typeof value === 'string') // only include direct language entries
+    .map(([code, label]) => ({
+      value: code,
+      label: label as string, // type assertion since we filtered for strings
+    }));
+
   return (
     <Main className="[--padding-bottom:30px]">
       <IonList lines="full">
         <div className="flex flex-col gap-3">
           <div className="rounded-list">
+            <Select
+              label="Language"
+              prefix={<IonIcon src={globeOutline} className="size-6" />}
+              options={languageOptions}
+              defaultValue={appModel.data.language}
+              onChange={(val: any) => onToggle('language', val)}
+            />
             <Toggle
               prefix={<IonIcon src={shareSocialOutline} className="size-6" />}
               label="Share with app developers"

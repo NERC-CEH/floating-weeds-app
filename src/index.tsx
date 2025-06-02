@@ -10,7 +10,9 @@ import { sentryOptions } from '@flumens';
 import { setupIonicReact, isPlatform } from '@ionic/react';
 import * as Sentry from '@sentry/browser';
 import config from 'common/config';
+import languages from 'common/languages';
 import { db } from 'common/models/store';
+import getLangCodeFromDevice from 'common/translations/getLangCodeFromDevice';
 import appModel from 'models/app';
 import samples from 'models/collections/samples';
 import userModel from 'models/user';
@@ -28,6 +30,13 @@ async function init() {
   await userModel.fetch();
   await appModel.fetch();
   await samples.fetch();
+
+  if (!appModel.data.language) {
+    const langCode = (await getLangCodeFromDevice(languages)) || 'en';
+    console.log(`Setting app language to: ${langCode}`);
+    appModel.data.language = langCode;
+    appModel.save();
+  }
 
   appModel.data.sendAnalytics &&
     Sentry.init({
