@@ -1,0 +1,199 @@
+@mixin slide {
+  background-position: center;
+  background-size: cover;
+
+  .slide-header {
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#welcome-page {
+  ion-header {
+    position: fixed;
+
+    ion-toolbar {
+      --background: transparent;
+      --border-color: transparent;
+
+      ion-button {
+        margin: 10px;
+        border-radius: 50%;
+        background: #ffffffe0;
+        width: 40px;
+        height: 40px;
+        color: #4d380a;
+        color: var(--ion-color-dark);
+        --border-radius: 50%;
+      }
+    }
+  }
+
+  .swiper {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+
+    .swiper-slide {
+      .message-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+
+        &.blurry {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+          background-color: rgba(255, 255, 255, 0.9);
+          padding-bottom: 50px;
+          width: 100%;
+        }
+
+        .message-header {
+          display: flex;
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+          background: var(--color-primary-800);
+          padding: 10px;
+          width: 100%;
+          color: var(--ion-color-warning);
+
+          ion-icon {
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+    }
+
+    p,
+    h2 {
+      margin: 1.1rem;
+      text-align: center;
+    }
+
+    h2 {
+      padding: 0 40px;
+      color: var(--ion-color-light);
+      font-weight: bold;
+      font-weight: 300;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 5px;
+      margin: 20px auto;
+      max-width: 85%;
+      color: var(--ion-color-dark);
+      font-size: 1.2rem;
+      line-height: 1.5em;
+      text-align: left;
+
+      &.small-font {
+        font-size: 1rem;
+        line-height: 1.1em;
+      }
+    }
+
+    .swiper-pagination-bullets {
+      bottom: 2%;
+
+      .swiper-pagination-bullet {
+        opacity: 1;
+        --bullet-background: var(--ion-color-medium);
+      }
+
+      .swiper-pagination-bullet-active {
+        opacity: 0.8;
+        --bullet-background-active: var(--ion-color-dark);
+      }
+    }
+  }
+
+  .swiper .swiper-slide.first {
+    @include slide;
+  }
+
+  .swiper .swiper-slide.second {
+    @include slide;
+
+    ion-content {
+      --background: none;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .message-container {
+        display: flex;
+        bottom: 0;
+        flex-direction: column;
+        backdrop-filter: blur(12px);
+        margin: 20px 20px;
+
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background: var(--ion-color-warning);
+
+        background-color: rgba(255, 255, 255, 0.563);
+        overflow: hidden;
+
+        .message-header {
+          color: var(--ion-color-warning);
+
+          ion-icon {
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            transform: translateY(-50%);
+            color: var(--ion-color-warning);
+            font-size: 40px;
+          }
+
+          h2 {
+            color: var(--ion-color-warning);
+          }
+        }
+
+        ion-button {
+          margin-bottom: 30px;
+          color: var(--ion-color-secondary-contrast);
+          font-weight: 500;
+          text-transform: uppercase;
+          --box-shadow: none;
+        }
+      }
+    }
+  }
+
+  ion-footer ion-toolbar {
+    --background: transparent;
+    --border-color: transparent;
+    position: absolute;
+    bottom: 0;
+
+    ion-button {
+      margin: 10px;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      --box-shadow: none;
+
+      background: var(--ion-color-secondary);
+      color: var(--ion-color-light);
+      --ionicon-stroke-width: 52px;
+    }
+  }
+}

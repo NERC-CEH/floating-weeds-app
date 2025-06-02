@@ -13,6 +13,7 @@ import samples from 'common/models/collections/samples';
 import 'common/theme.scss';
 import 'common/translations/translator';
 import Home from './Home';
+import SplashScreenRequired from './Info/SplashScreenRequired';
 import Info from './Info/router';
 import Settings from './Settings/router';
 import Survey from './Survey/router';
@@ -33,22 +34,24 @@ const HomeRedirect = () => <Redirect to="home" />;
 const App = () => {
   return (
     <IonApp>
-      <TailwindContext.Provider value={tailwindContext}>
-        <TailwindBlockContext.Provider value={tailwindBlockContext}>
-          <SamplesContext.Provider value={samplesContext}>
-            <IonReactRouter>
-              <IonRouterOutlet id="main">
-                <Route exact path="/" component={HomeRedirect} />
-                <Route path="/home" component={Home} />
-                {User}
-                {Info}
-                {Survey}
-                {Settings}
-              </IonRouterOutlet>
-            </IonReactRouter>
-          </SamplesContext.Provider>
-        </TailwindBlockContext.Provider>
-      </TailwindContext.Provider>
+      <SplashScreenRequired>
+        <TailwindContext.Provider value={tailwindContext}>
+          <TailwindBlockContext.Provider value={tailwindBlockContext}>
+            <SamplesContext.Provider value={samplesContext}>
+              <IonReactRouter>
+                <IonRouterOutlet id="main">
+                  <Route exact path="/" component={HomeRedirect} />
+                  <Route path="/home" component={Home} />
+                  {User}
+                  {Info}
+                  {Survey}
+                  {Settings}
+                </IonRouterOutlet>
+              </IonReactRouter>
+            </SamplesContext.Provider>
+          </TailwindBlockContext.Provider>
+        </TailwindContext.Provider>
+      </SplashScreenRequired>
     </IonApp>
   );
 };
