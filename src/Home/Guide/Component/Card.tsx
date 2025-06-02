@@ -1,23 +1,24 @@
 import { useTranslation } from 'react-i18next';
-import { IonCard, IonLabel } from '@ionic/react';
+import { IonCard } from '@ionic/react';
 import './styles.scss';
 
 type Props = {
-  card: any;
+  species: any;
 };
 
-function Card(props: Props) {
+function Card({ species }: Props) {
   const { t } = useTranslation();
 
-  const { text, image } = props.card;
+  const { commonName, scientificName, image } = species;
 
   return (
     <div id="card">
       <IonCard>
         <div className="card" style={{ backgroundImage: `url(${image})` }}>
           <div className="card-wrapper">
-            <div className="card-blur-container">
-              <IonLabel>{t(text)}</IonLabel>
+            <div className="card-blur-container p-3">
+              <span>{t(commonName)}</span>
+              <i className="px-2">({t(scientificName)})</i>
             </div>
           </div>
         </div>

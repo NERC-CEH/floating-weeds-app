@@ -1,32 +1,15 @@
 import { informationCircle } from 'ionicons/icons';
 import { Page, InfoMessage, Main } from '@flumens';
 import { IonIcon } from '@ionic/react';
+import species from 'common/species';
 import Card from './Component/Card';
-import img1 from './images/image1.jpg';
 import './styles.scss';
 
-const bgCards = [
-  {
-    text: '...text here...',
-    image: img1,
-  },
-  {
-    text: '...text here...',
-    image: img1,
-  },
-  {
-    text: '...text here...',
-    image: img1,
-  },
-];
-
-const getCards = (data: any) => {
-  const showCards = (card: any) => <Card key={card.text} card={card} />;
-
-  return data.map(showCards);
-};
-
 function Guide() {
+  const cards = species.map((sp: any) => (
+    <Card key={sp.warehouseId} species={sp} />
+  ));
+
   return (
     <Page id="guide">
       <Main>
@@ -39,7 +22,7 @@ function Guide() {
           the record anyway
         </InfoMessage>
 
-        {getCards(bgCards)}
+        {cards}
       </Main>
     </Page>
   );

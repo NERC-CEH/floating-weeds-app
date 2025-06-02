@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { observer } from 'mobx-react';
 import { Page, Main, Header, RadioInput } from '@flumens';
 import { NavContext } from '@ionic/react';
+import species from 'common/species';
 import Occurrence, { Taxon } from 'models/occurrence';
 import Sample from 'models/sample';
 
@@ -9,39 +10,6 @@ type Props = {
   sample: Sample;
   occurrence?: Occurrence;
 };
-
-const species = [
-  {
-    commonName: 'Nile cabbage',
-    scientificName: 'Pistia stratiates',
-    warehouseId: '644716',
-  },
-  {
-    commonName: 'Papyrus',
-    scientificName: 'Cyperus papyrus',
-    warehouseId: '644714',
-  },
-  {
-    commonName: 'Water ferns',
-    scientificName: 'Azolla sp.',
-    warehouseId: '644678',
-  },
-  {
-    commonName: 'Water hyacinth',
-    scientificName: 'Pontederia crassipes',
-    warehouseId: '644718',
-  },
-  {
-    commonName: 'Water Lettuce',
-    scientificName: 'Pistia stratiotes',
-    warehouseId: '644722',
-  },
-  {
-    commonName: 'Watermosses',
-    scientificName: 'Salvinia sp.',
-    warehouseId: '644720',
-  },
-];
 
 const mapSpeciesToOption = (s: any) => ({
   label: `${s.commonName} (${s.scientificName})`,
