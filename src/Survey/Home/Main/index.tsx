@@ -55,13 +55,20 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
   const getItem = (occ: Occurrence) => {
     const onDeleteWrap = () => occ.destroy();
 
+    const image = occ.media.length ? (
+      <img src={occ.media?.[0]?.getURL()} />
+    ) : (
+      <div className="list-avatar-placeholder" />
+    );
+
     return (
       <IonItemSliding disabled={isDisabled} key={occ.cid}>
         <IonItem
           routerLink={`${match.url}/species/${occ.cid}`}
           className="border-b [--inner-padding-end:8px] [--padding-start:3px]"
         >
-          <div className="flex w-full items-center gap-2 px-1">
+          <div className="flex w-full items-center gap-2 pr-1">
+            <div className="list-avatar m-1">{image}</div>
             <div className="flex w-full flex-col overflow-hidden p-1">
               <div className="font-semibold">{occ.data.taxon?.commonName}</div>
               <div className="italic">{occ.data.taxon?.scientificName}</div>

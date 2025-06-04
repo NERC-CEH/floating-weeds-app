@@ -4,6 +4,7 @@ import { Block, Main, MenuAttrItem } from '@flumens';
 import { IonList } from '@ionic/react';
 import Occurrence from 'models/occurrence';
 import Sample from 'models/sample';
+import PhotoPicker from 'Survey/Components/PhotoPicker';
 import VerificationMessage from 'Survey/Components/VerificationMessage';
 import { certaintyAttr, commentAttr, quantityAttr } from 'Survey/config';
 import './styles.scss';
@@ -33,6 +34,10 @@ const OccurrenceMain = ({ sample, occurrence }: Props) => {
             <VerificationMessage occurrence={occurrence} />
           </div>
         )}
+
+        <div className="rounded-list mb-2">
+          <PhotoPicker model={occurrence} />
+        </div>
 
         <div className="rounded-list">
           <Block block={quantityAttr} {...recordAttrs} />

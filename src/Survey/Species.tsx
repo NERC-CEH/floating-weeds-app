@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { observer } from 'mobx-react';
+import { useRouteMatch } from 'react-router-dom';
 import { Page, Main, Header, RadioInput } from '@flumens';
 import { NavContext } from '@ionic/react';
 import species from 'common/species';
@@ -17,7 +18,8 @@ const mapSpeciesToOption = (s: any) => ({
 });
 
 const Species = ({ sample, occurrence }: Props) => {
-  const { goBack } = useContext(NavContext);
+  const { goBack, navigate } = useContext(NavContext);
+  const match = useRouteMatch();
 
   const onSpeciesSelected = async (value: string) => {
     // find the selected species based on warehouseId
@@ -42,9 +44,7 @@ const Species = ({ sample, occurrence }: Props) => {
       sample.occurrences.push(newOcc);
       sample.save();
 
-      // navigate(`${match.url}/${newOcc.cid}`, 'forward', 'replace');
-      goBack();
-
+      navigate(`${match.url}/${newOcc.cid}`, 'forward', 'replace');
       return;
     }
 

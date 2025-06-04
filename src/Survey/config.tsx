@@ -142,7 +142,12 @@ const survey: Survey = {
       });
     },
 
-    verify: (_: any, occ: OccurrenceClass) => object({}).safeParse(occ).error,
+    verify: (_: any, occ: OccurrenceClass) =>
+      object({
+        media: z
+          .array(object({}))
+          .min(1, 'Please add at least one photo of the species'),
+      }).safeParse(occ).error,
   },
 
   verify: (_: any, smp: SampleClass) =>
@@ -155,9 +160,6 @@ const survey: Survey = {
         ),
       }),
       occurrences: object({}).array().min(1, 'Please add at least one species'),
-      media: z
-        .array(object({}))
-        .min(1, 'Please add at least one photo of the species'),
     }).safeParse(smp).error,
 
   create({ Sample }) {
