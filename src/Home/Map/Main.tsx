@@ -71,23 +71,110 @@ const useRecordPopup = (records: Record[]) => {
     }
 
     alert({
-      header: record.sample_date.split(' ')[0],
+      header: record.vernacular_name,
       cssClass: 'location-map',
       message: (
         <>
           <div className="alert-record-status">
             <T>{statusText}</T>
           </div>
+          <div className="mb-2">{record.sample_date.split(' ')[0]}</div>
           {image}
         </>
       ),
       buttons: [
         {
-          text: 'OK',
+          text: 'Close',
           cssClass: 'primary',
         },
       ],
     });
+  };
+
+  return showRecordPopup;
+};
+
+const useClusterPopup = (records: Record[]) => {
+  const alert = useAlert();
+
+  const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
+
+  const showRecordPopup = (features: any[]) => {
+    // reset to first feature when showing new cluster
+    setCurrentFeatureIndex(0);
+
+    const showFeatureAlert = (featureIndex: number) => {
+      const currentFeature = features[featureIndex];
+
+      const byId = (record: Record) =>
+        record.id === currentFeature.properties.id;
+      const record = records?.find(byId);
+
+      if (!record) return;
+
+      let image;
+
+      if (record.images.length) {
+        const imagePath = record.images[0].path;
+        image = <img src={`${CONFIG.backend.mediaUrl}${imagePath}`} />;
+      } else {
+        image = (
+          <div className="missing-image">
+            <T>This record has no images.</T>
+          </div>
+        );
+      }
+
+      const statuses = {
+        R: 'rejected',
+        V: 'verified',
+      };
+
+      let statusText = (statuses as any)[record.verification.status_code];
+
+      if (
+        !statusText &&
+        record.verification.status_code === 'C' &&
+        record.verification.substatus_code === '3'
+      ) {
+        statusText = 'plausible';
+      }
+
+      const handleNext = () => {
+        setTimeout(() => {
+          const nextIndex = (featureIndex + 1) % features.length;
+          setCurrentFeatureIndex(nextIndex);
+          showFeatureAlert(nextIndex);
+        }, 300);
+      };
+
+      const buttons = [{ text: 'Close' }];
+
+      // add Next button only if there are multiple features
+      if (features.length > 1) {
+        buttons.unshift({
+          text: `Next (${featureIndex + 1}/${features.length})`,
+          handler: handleNext,
+        } as any);
+      }
+
+      alert({
+        header: record.vernacular_name,
+        cssClass: 'location-map',
+        message: (
+          <>
+            <div className="alert-record-status">
+              <T>{statusText}</T>
+            </div>
+            <div className="mb-2">{record.sample_date.split(' ')[0]}</div>
+            {image}
+          </>
+        ),
+        buttons,
+      });
+    };
+
+    showFeatureAlert(currentFeatureIndex);
   };
 
   return showRecordPopup;
@@ -107,6 +194,7 @@ const MapComponent = ({
   const [mapRef, setMapRef] = useState<any>();
 
   const showRecordPopup = useRecordPopup(records);
+  const showClusterPopup = useClusterPopup(records);
 
   const onMoveEnd = () => {
     const bounds = mapRef?.getBounds();
@@ -144,10 +232,10 @@ const MapComponent = ({
           type="geojson"
           data={data}
           cluster
-          clusterMaxZoom={10}
+          // clusterMaxZoom={16}
           clusterRadius={50}
         >
-          <MarkerClusterLayer source="records" />
+          <MarkerClusterLayer source="records" onClick={showClusterPopup} />
           <MarkerLayer
             source="records"
             onClick={showRecordPopup}

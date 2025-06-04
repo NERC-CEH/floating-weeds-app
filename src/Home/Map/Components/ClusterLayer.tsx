@@ -1,12 +1,13 @@
 /* eslint-disable @getify/proper-arrows/name */
-import { useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 import { LayerProps, Layer as MapLayer, useMap } from 'react-map-gl/mapbox';
 
 type Props = {
   source: string;
+  onClick?: any;
 };
 
-const Layer = ({ source }: Props) => {
+const Layer = ({ source, onClick: onClickProp }: Props) => {
   const layer: LayerProps = {
     id: 'clusters',
     type: 'circle',
@@ -41,31 +42,59 @@ const Layer = ({ source }: Props) => {
     },
   };
 
-  const mapRef = useMap();
-
-  const onClick = (event: any) => {
-    if (!mapRef.current) return;
-
-    const [feature] = event.features;
-    if (!feature) return;
-
-    const clusterId = feature.properties.cluster_id;
-
-    const mapboxSource = mapRef.current.getSource('records') as any;
-
-    const flyToCluster = (err: any, zoom: any) => {
-      if (err) return;
-
-      mapRef.current?.flyTo({
-        center: feature.geometry.coordinates,
-        zoom,
-        duration: 500,
-      });
-    };
-    mapboxSource.getClusterExpansionZoom(clusterId, flyToCluster);
-  };
-
   const { current: map } = useMap();
+
+  const onClick = useCallback(
+    async (event: any) => {
+      const { features } = event;
+
+      if (!features || !features.length) {
+        onClickProp([]);
+        return;
+      }
+
+      const clickedFeature = features[0];
+
+      // check if it's a cluster
+      if (clickedFeature.properties?.cluster) {
+        const clusterId = clickedFeature.properties.cluster_id;
+
+        // get the actual features that are clustered
+        const mapSource = map?.getSource(source) as any;
+
+        if (mapSource && mapSource.getClusterLeaves) {
+          try {
+            const clusteredFeatures = await new Promise((resolve, reject) => {
+              mapSource.getClusterLeaves(
+                clusterId,
+                clickedFeature.properties.point_count,
+                0,
+                (error: any, feat: any) => {
+                  if (error) {
+                    reject(error);
+                  } else {
+                    resolve(feat);
+                  }
+                }
+              );
+            });
+
+            onClickProp(clusteredFeatures);
+          } catch (error) {
+            console.debug('🔵 Error getting cluster leaves:', error);
+            onClickProp(features);
+          }
+        } else {
+          onClickProp(features);
+        }
+      } else {
+        // single feature click
+        onClickProp(features);
+      }
+    },
+    [onClickProp]
+  );
+
   const listenToClicks = () => {
     if (!map) return;
 
@@ -74,7 +103,7 @@ const Layer = ({ source }: Props) => {
     // eslint-disable-next-line consistent-return
     return () => map.off('click', layer.id!, onClick) as any;
   };
-  useEffect(listenToClicks, [map]);
+  useEffect(listenToClicks, [map, onClick]);
 
   return (
     <>
