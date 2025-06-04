@@ -22,6 +22,8 @@ export default () => (
             <li>Gemma Nash (UKCEH)</li>
             <li>Linda May (UKCEH)</li>
             <li>France Gerard (UKCEH)</li>
+            <li>Emma Tebbs (KCL)</li>
+            <li>Winnifred Owoko (KCL)</li>
             <li>Karolis Kazlauskis (Flumens)</li>
           </ul>
         </P>
