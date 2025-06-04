@@ -23,6 +23,7 @@ import {
   IonList,
 } from '@ionic/react';
 import InfoBackgroundMessage from 'common/Components/InfoBackgroundMessage';
+import VerificationStatus from 'common/Components/VerificationStatus';
 import Occurrence from 'common/models/occurrence';
 import Sample from 'models/sample';
 import {
@@ -66,6 +67,8 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
               <div className="italic">{occ.data.taxon?.scientificName}</div>
             </div>
           </div>
+
+          <VerificationStatus occ={occ} />
         </IonItem>
 
         <IonItemOptions side="end">

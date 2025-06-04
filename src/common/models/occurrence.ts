@@ -61,6 +61,14 @@ export default class Occurrence extends OccurrenceOriginal<Attrs, Metadata> {
     return ''; // pending
   }
 
+  hasOccurrenceBeenVerified() {
+    const isRecordInReview =
+      this.metadata?.verification?.verification_status === 'C' &&
+      this.metadata?.verification?.verification_substatus !== '3';
+
+    return this.isUploaded && this.metadata?.verification && !isRecordInReview;
+  }
+
   getVerificationStatusMessage() {
     const codes: { [keyof: string]: string } = {
       V: 'Accepted',

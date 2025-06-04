@@ -2,6 +2,22 @@
 // @ts-ignore
 const flumensTailwind = require('@flumens/tailwind/tailwind.config.js');
 
+const primary = {
+  // https://www.tailwindshades.com/#color=76.8%2C49.5049504950495%2C39.6078431372549&step-up=10&step-down=11&hue-shift=0&name=sushi&base-stop=6&v=1&overrides=e30%3D
+  DEFAULT: '#7B9733',
+  50: '#F4F8EA',
+  100: '#EAF2D7',
+  200: '#D6E5B1',
+  300: '#C2D88B',
+  400: '#AECB65',
+  500: '#9ABD40',
+  600: '#7B9733',
+  700: '#596D25',
+  800: '#374317',
+  900: '#151909',
+  950: '#030401',
+};
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -14,21 +30,7 @@ module.exports = {
       ...flumensTailwind.theme?.extend,
 
       colors: {
-        primary: {
-          // https://www.tailwindshades.com/#color=76.8%2C49.5049504950495%2C39.6078431372549&step-up=10&step-down=11&hue-shift=0&name=sushi&base-stop=6&v=1&overrides=e30%3D
-          DEFAULT: '#7B9733',
-          50: '#F4F8EA',
-          100: '#EAF2D7',
-          200: '#D6E5B1',
-          300: '#C2D88B',
-          400: '#AECB65',
-          500: '#9ABD40',
-          600: '#7B9733',
-          700: '#596D25',
-          800: '#374317',
-          900: '#151909',
-          950: '#030401',
-        },
+        primary,
 
         secondary: {
           // https://www.tailwindshades.com/#color=37.02127659574467%2C100%2C53.92156862745098&step-up=9&step-down=11&hue-shift=0&name=sun&base-stop=5&v=1&overrides=e30%3D
@@ -62,21 +64,7 @@ module.exports = {
           950: '#000D16',
         },
 
-        success: {
-          // https://www.tailwindshades.com/#color=128.25396825396825%2C100%2C32&step-up=8&step-down=11&hue-shift=0&name=fun-green&base-stop=7&v=1&overrides=e30%3D
-          DEFAULT: '#00A316',
-          50: '#ADFFB9',
-          100: '#99FFA7',
-          200: '#70FF84',
-          300: '#47FF61',
-          400: '#1FFF3D',
-          500: '#00F522',
-          600: '#00CC1C',
-          700: '#00A316',
-          800: '#006B0F',
-          900: '#003307',
-          950: '#001703',
-        },
+        success: primary,
 
         warning: {
           // https://www.tailwindshades.com/#color=39.01345291479821%2C100%2C43.72549019607843&step-up=10&step-down=12&hue-shift=0&name=tangerine&base-stop=6&v=1&overrides=e30%3D

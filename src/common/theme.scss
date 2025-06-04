@@ -92,6 +92,10 @@
   --ion-toolbar-color-activated: var(--color-white);
 
   --form-value-color: rgba(var(--color-tertiary-800-rgb), 0.85);
+
+  --verification-success: var(--color-primary);
+  --verification-plausible: #fcb500;
+  --verification-rejected: var(--color-danger);
 }
 
 // status bar
