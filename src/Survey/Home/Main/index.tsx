@@ -82,7 +82,7 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
 
   return (
     <Main>
-      <IonList lines="full" className="flex flex-col gap-5">
+      <IonList lines="full" className="mb-8 flex flex-col gap-5">
         {/* {getVerificationMessage()} */}
 
         {isDisabled && (
@@ -125,15 +125,19 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
             record={sample.data}
             isDisabled={isDisabled}
           />
-          <InfoMessage inline>
-            Please add any extra info about this record.
-          </InfoMessage>
+          {!isDisabled && (
+            <InfoMessage inline>
+              Please add any extra info about this record.
+            </InfoMessage>
+          )}
         </div>
       </IonList>
 
-      <Button onPress={onAddSpecies} color="primary" className="mx-auto my-8">
-        Add species
-      </Button>
+      {!isDisabled && (
+        <Button onPress={onAddSpecies} color="primary" className="mx-auto mb-8">
+          Add species
+        </Button>
+      )}
 
       {hasSpecies && (
         <IonList lines="none">

@@ -123,28 +123,6 @@ const survey: Survey = {
 
     activities: {
       ...blockToAttr(activitiesGroupAttr).activities,
-      // For backwards compatibility, remove once everyone uploads their records
-      remote: {
-        id: 1016,
-        values(allValues: any, submission: any) {
-          const reg = /^user_/;
-          const getId = (val: any) => {
-            const byValue = ({ value }: any) => value === val;
-            return activitiesValues.find(byValue)?.dataName;
-          };
-
-          // personal
-          const isPersonal = (val: any) => reg.test(val);
-          submission.values[`smpAttr:1015`] = allValues // eslint-disable-line
-            .filter(isPersonal)
-            .map(getId);
-
-          // others
-          const isNotPersonal = (val: any) => !reg.test(val);
-          const other = allValues.filter(isNotPersonal).map(getId);
-          return other;
-        },
-      } as any,
     },
   },
 
