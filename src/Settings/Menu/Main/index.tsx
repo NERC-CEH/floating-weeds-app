@@ -7,6 +7,7 @@ import {
   cloudUploadOutline,
   globeOutline,
 } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
 import { Main, useAlert, InfoMessage, Toggle, Select } from '@flumens';
 import { IonIcon, IonList, IonItem, IonLabel, isPlatform } from '@ionic/react';
 import languages from 'common/languages';
@@ -20,13 +21,13 @@ function useDatabaseExportDialog(exportFn: any) {
     alert({
       header: 'Export',
       message: (
-        <>
+        <T>
           Are you sure you want to export the data?
           <p className="my-2 font-bold">
             This feature is intended solely for technical support and is not a
             supported method for exporting your data
           </p>
-        </>
+        </T>
       ),
       buttons: [
         {
@@ -50,10 +51,9 @@ function useUserDeleteDialog(deleteUser: any) {
   const showUserDeleteDialog = () => {
     alert({
       header: 'Account delete',
-      skipTranslation: true,
       message: (
         <>
-          Are you sure you want to delete your account?
+          <T>Are you sure you want to delete your account?</T>
           <InfoMessage
             color="danger"
             prefix={<IonIcon src={warningOutline} className="size-6" />}
@@ -137,7 +137,7 @@ const MenuMain = ({
 
             <IonItem onClick={showDatabaseExportDialog}>
               <IonIcon icon={cloudDownloadOutline} size="small" slot="start" />
-              Export database
+              <T>Export database</T>
             </IonItem>
 
             {!isPlatform('hybrid') && (
@@ -157,7 +157,9 @@ const MenuMain = ({
                     size="small"
                     slot="start"
                   />
-                  <IonLabel>Delete account</IonLabel>
+                  <IonLabel>
+                    <T>Delete account</T>
+                  </IonLabel>
                 </IonItem>
                 <InfoMessage inline>
                   You can delete your user account from the system.

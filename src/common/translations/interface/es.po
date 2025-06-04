@@ -6,12 +6,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
 "Last-Translator: Karolis, 2025\n"
-"Language-Team: Swahili (Kenya) (https://app.transifex.com/ceh/teams/269467/sw_KE/)\n"
+"Language-Team: Spanish (https://app.transifex.com/ceh/teams/269467/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sw_KE\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "X-Generator: POEditor.com\n"
 
 # Onboarding page
@@ -34,259 +34,262 @@ msgstr ""
 
 # Button title
 msgid "Back"
-msgstr "Nyuma"
+msgstr "Regresar"
 
 # Home page toolbar menu label
 msgid "Home"
-msgstr "Ukurasa wa mwanzo"
+msgstr "Inicio"
 
 # Home page toolbar menu label
 msgid "Map"
-msgstr "Ramani"
+msgstr "Mapa"
 
 # Guide page information message
 msgid ""
 "If you are still not sure after looking at this guide please submit the "
 "record anyway"
 msgstr ""
-"Iwapo bado hauna uhakika hata baada ya kuangalia maelezo haya, tafadhali "
-"tuma tu ulionakili hata hivyo."
+"Si todavía no está seguro después de consultar esta guía, envíe el registro "
+"de todas maneras"
 
 # My Records page header title
 msgid "Pending"
-msgstr "Haijakamilishwa"
+msgstr "Pendiente"
 
 # My Records page header title
 msgid "Uploaded"
-msgstr "Imepakiwa"
+msgstr "Subido"
 
 # My Records page record info message
 msgid "Draft"
-msgstr "Rasimu"
+msgstr "Borrador"
 
 # My Records page record info message
 msgid "To delete any records swipe it to the left."
-msgstr "– Ili kufuta rekodi yoyote, telezesha kwenda upande wa kushoto."
+msgstr "Para eliminar cualquier registro, deslízalo hacia la izquierda"
 
 # Settings page header title
 msgid "Settings"
-msgstr "Mipangilio"
+msgstr "Configuración"
 
 # Settings page label
 msgid "English"
-msgstr "Kiingereza"
+msgstr "Inglés"
 
 # Settings page label
 msgid "Language"
-msgstr "Lugha"
+msgstr "Idioma"
 
 # Settings page message
 msgid "Share app crash data so we can make the app more reliable."
-msgstr "Shiriki data za hitilafu za programu ili tuiimarishe zaidi."
+msgstr ""
+"Comparta los datos de bloqueo de la aplicación para que podamos hacer que la"
+" aplicación sea más confiable."
 
 # Settings page label
 msgid "Reset App"
-msgstr "Weka upya programu"
+msgstr "Reiniciar aplicación"
 
 # Settings page label
 msgid "Share App Analytics"
-msgstr "Shiriki takwimu za matumizi ya programu"
+msgstr "Compartir datos analíticos de la aplicación"
 
 # Reset app alert button label
 msgid "Cancel"
-msgstr " Ghairi"
+msgstr "Anular"
 
 # Start record draft title
 msgid "No uploaded records"
-msgstr "Hakuna rekodi zilizopakiwa"
+msgstr "No hay registros cargados"
 
 # Start record draft button label
 msgid "Discard"
-msgstr "Tupa"
+msgstr "Desechar"
 
 # Start record draft button label
 msgid "Continue"
-msgstr "Endelea"
+msgstr "Continuar"
 
 # Start record draft button message
 msgid "Previous record draft exists, would you like to continue it?"
-msgstr "Rasimu ya rekodi iliyopita ipo, ungependa kuendelea nayo?"
+msgstr "Hay un borrador de registro anterior, ¿te gustaría continuarlo?"
 
 # Record page label
 msgid "No photo has been added."
-msgstr "Hakuna picha iliyoongezwa."
+msgstr "No se ha añadido ninguna foto"
 
 # Record page label
 msgid "Press <1></1> to add."
-msgstr "Bonyeza 1 1 ili kuongeza."
+msgstr "Pulsa <1></1>para añadir"
 
 # Record page label
 msgid "Location"
-msgstr "Mahali"
+msgstr "Ubicación"
 
 # Record page label
 msgid "Today"
-msgstr "Leo"
+msgstr "Hoy"
 
 # Record page label
 msgid "Date"
-msgstr "Tarehe"
+msgstr "Fecha"
 
 # Record page label
 msgid "Activities"
-msgstr "Shughuli"
+msgstr "Actividades"
 
 # Record page label
 msgid "Comment"
-msgstr "Maoni"
+msgstr "Comentarios"
 
 # Record comment information message
 msgid "Please add any extra info about this record."
-msgstr "Tafadhali ongeza maelezo ya ziada kuhusu rekodi hii."
+msgstr "Por favor, añada cualquier información adicional sobre este registro."
 
 # Record comment placeholder message
 msgid "Enter more information here..."
-msgstr " Ingiza maelezo zaidi hapa... "
+msgstr "Introducir más informaciónes aquí..."
 
 # Record activities information message
 msgid "What activities were you doing?"
-msgstr "Ni shughuli gani ulikuwa unafanya?"
+msgstr "¿Qué actividades estabas haciendo?"
 
 # Record activities content
 msgid "Walking / Running"
-msgstr "Kutembea / Kukimbia"
+msgstr "Caminar/Correr"
 
 # Record activities content
 msgid "Dog-walking"
-msgstr " Kutembea na mbwa"
+msgstr "Pasear perros"
 
 # Record activities content
 msgid "Cycling"
-msgstr " Kuendesha baiskeli"
+msgstr "Ciclismo"
 
 # Record activities content
 msgid "Birdwatching"
-msgstr "Kutazama ndege "
+msgstr "Observación de aves"
 
 # Record activities content
 msgid "Fishing"
-msgstr "Kuvua samaki"
+msgstr "Pesca"
 
 # Record activities content
 msgid "Swimming"
-msgstr "Kuogelea "
+msgstr "Nadar"
 
 # Record activities content
 msgid "Boats / Watersports"
-msgstr "Boti / Michezo ya maji  "
+msgstr "Barca/Deportes acuáticos"
 
 # Record activities content
 msgid "Other"
-msgstr "Nyingine"
+msgstr "Otro"
 
 # Splash screen content
 msgid "Got it!"
-msgstr "Nimeelewa!"
+msgstr "¡Entendido!"
 
 # Button label
 msgid "Delete"
-msgstr "Futa"
+msgstr "Eliminar"
 
 # My records page background message
 msgid "No finished pending records."
-msgstr "Hakuna rekodi za kusubiri zilizokamilika."
+msgstr "No hay registros pendientes terminados."
 
 # Record incomplete pop up title
 msgid "Record incomplete"
-msgstr "Rekodi haijakamilika "
+msgstr "Registro incompleto"
 
 # Record verify location button label
 msgid "Incorrect"
-msgstr "Si sahihi "
+msgstr "Incorrecto"
 
 # Record verify location button label
 msgid "Correct"
-msgstr "Sahihi"
+msgstr "Correcto"
 
 # Side menu label
 msgid "Navigate"
-msgstr "Ogelea au elekeza"
+msgstr "Navegar"
 
 # Side menu content
 msgid "App version"
-msgstr "Toleo la programu"
+msgstr "Versión de la aplicación"
 
 # Delete record alert message
 msgid "Are you sure you want to delete this record ?"
-msgstr "Je, unahakikisha kuwa unataka kufuta rekodi hii? "
+msgstr "¿Está seguro de que desea eliminar este registro?"
 
 # Record upload button label
 msgid "Upload"
-msgstr "Pakia"
+msgstr "Subir"
 
 # Record button label
 msgid "OK"
-msgstr "Sawa"
+msgstr "Okey"
 
 # part of record
 msgid "DD/MM/YYYY"
-msgstr "  DD/MM/YYYYY Siku/Mwezi/Mwaka)"
+msgstr "dd/mm/aaaa"
 
 # part of record
 msgid "Record"
-msgstr "Rekodi"
+msgstr "Registro"
 
 # Settings reset alert message
 msgid "Done"
-msgstr "Imekamilika"
+msgstr "Hecho"
 
 # Info background message button label
 msgid "Hide"
-msgstr "Ficha"
+msgstr "Esconder"
 
 # Map page header label
 msgid "All Records"
-msgstr "Rekodi Zote"
+msgstr "Todos los registros"
 
 # Record map toggle
 msgid "See past 12 months"
-msgstr "Tazama miezi 12 iliopita"
+msgstr "Ver los últimos 12 meses"
 
 # Record map toggle
 msgid "The default setting is the past 4 weeks of records."
-msgstr "Mipangilio chaguomsingi ni rekodi za wiki 4 zilizopita"
+msgstr ""
+"La configuración predeterminada son las últimas 4 semanas de registros."
 
 # Record map toggle
 msgid "Please confirm this is your correct location."
-msgstr "Tafadhali dhibitisha kuwa hapa ni eneo ulipo"
+msgstr "Confirme que esta es su ubicación correcta."
 
 # Record alert image on a map
 msgid "This record has no images."
-msgstr "Rekodi hii haina picha"
+msgstr "Este registro no tiene imágenes."
 
 # A verification popup setting
 msgid "Do not show again"
-msgstr "Usionyeshe tena"
+msgstr "No volver a mostrar"
 
 # Record status on a map
 msgid "rejected"
-msgstr "Kukataliwa"
+msgstr "rechazado"
 
 # Record status on a map
 msgid "complete"
-msgstr "Kamili"
+msgstr "completo"
 
 # Record status on a map
 msgid "plausible"
-msgstr "Inayokubalika"
+msgstr "verosímil"
 
 # Record status on a map
 msgid "verified"
-msgstr "Imethibitishwa"
+msgstr "verificado"
 
 # Part of User authentication page
 msgid "Register/Login"
-msgstr "Jisajili/Ingia"
+msgstr "Registrarse/Iniciar sesión"
 
 # Part of User authentication page
 msgid "Login"
@@ -310,111 +313,114 @@ msgstr ""
 
 # Part of User authentication page
 msgid "Reset"
-msgstr "Weka upya"
+msgstr "Reinicia"
 
 # Part of User authentication page
 msgid "Create a free account"
-msgstr " Tengeneza akaunti ya bure"
+msgstr "Crear una cuenta gratis"
 
 # Part of User authentication page
 msgid "First name"
-msgstr "Jina la kwanza"
+msgstr "Nombre"
 
 # Part of User authentication page
 msgid "Last name"
-msgstr "Jina la mwisho "
+msgstr "Apellido"
 
 # Part of User authentication page
 msgid "Email"
-msgstr "Barua pepe "
+msgstr "Correo electrónico"
 
 # Part of User authentication page
 msgid "Password"
-msgstr "Nenosiri"
+msgstr "Contraseña"
 
 # Part of User authentication page
 msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
 msgstr ""
-"Kwa kubonyeza \"Jisajili\", unakubaliana na Sera Yetu ya Faragha na Sheria "
-"na Masharti yetu J"
+"Al hacer clic en Inscribirse, acepta nuestra <2>Normas de "
+"Confidencialidad</2> y <6>Términos y Condiciones</6>"
 
 # Part of User authentication page
 msgid "Sign Up"
-msgstr "isajili"
+msgstr "Inscribirse"
 
 # Part of User authentication page
 msgid "I am already a member"
-msgstr "Tayari mimi ni mwanachama "
+msgstr "Ya soy miembro"
 
 # Part of User authentication page
 msgid "Sign In"
-msgstr "Ingia "
+msgstr "Inicia sesión"
 
 # part of User authentication page
 msgid "Welcome back"
-msgstr "Karibu tena"
+msgstr "¡Bienvenido de nuevo!"
 
 # Part of User authentication page
 msgid "Sign in to your account to start"
-msgstr "Ingia kwenye akaunti yako ili kuanza "
+msgstr "Inicia sesión en tu cuenta para empezar"
 
 # Part of User authentication page
 msgid "Forgot password?"
-msgstr "Umesahau neno siri?"
+msgstr "¿Olvidó la contraseña?"
 
 # Part of User authentication page
 msgid "firstName is a required field"
-msgstr "Jina la kwanza ni sharti"
+msgstr "Nombre es un campo obligatorio"
 
 # Part of User authentication page
 msgid "Enter your email address to request a password reset."
-msgstr "Ingiza barua pepe yako ili kuomba kuweka upya nenosiri."
+msgstr ""
+"Introducir correo electrónico para solicitar un restablecimiento de "
+"contraseña."
 
 # Part of User authentication page
 msgid "email is a required field"
-msgstr "Barua pepe ni sharti"
+msgstr "Correo electrónico es un campo obligatorio"
 
 # Part of User authentication page
 msgid "password is a required field"
-msgstr "Nenosiri ni sharti  "
+msgstr "Contraseña es un campo obligatorio"
 
 # Part of User authentication page
 msgid "secondName is a required field"
-msgstr "Jina la pili ni sharti "
+msgstr "Apellido es un campo obligatorio"
 
 # User authentication alert
 msgid "Logout"
-msgstr "Toka kwenye akaunti "
+msgstr "Cerrar sesión"
 
 # User authentication alert
 msgid "Are you sure you want to logout?"
-msgstr "Je, unahakikisha unataka kutoka kwenye akaunti? "
+msgstr "¿Está seguro de que desea cerrar la sesión?"
 
 # User authentication alert
 msgid "Discard local data"
-msgstr "Futa data za ndani"
+msgstr "Desechar datos locales"
 
 # User authentication alert
 msgid "Please wait..."
-msgstr "Tafadhali subiri.."
+msgstr "Espere por favor"
 
 # Survey header button
 msgid "Finish"
-msgstr "Maliza"
+msgstr "Terminar"
 
 # Survey camera options
 msgid "Choose a method to upload a photo"
-msgstr " Chagua njia ya kupakia picha"
+msgstr "Elige un método para subir una foto"
 
 # Camera empty input message
 msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
-msgstr "Hakuna picha iliyoongezwa. 1 Bonyeza 2 3 3 2 ili kuongeza."
+msgstr "No se ha añadido ninguna foto. <br/>Pulsa<4><0></0></4>para añadir"
 
 # Survey page
 msgid "Location name e.g. lake, reservoir or pond name"
-msgstr " Jina la eneo, mfano: ziwa, bwawa au dimbwi "
+msgstr ""
+"Nombre de la ubicación, por ejemplo, nombre del lago, embalse o estanque"
 
 # Survey page
 msgid "Map Settings"
@@ -434,102 +440,103 @@ msgstr ""
 
 # Survey camera options
 msgid "Gallery"
-msgstr "Kichanja cha picha "
+msgstr "Galería de fotos"
 
 # Survey camera options
 msgid "Camera"
-msgstr "Kamera"
+msgstr "Cámara fotográfica"
 
 # User-surveys page background message
 msgid "Please do not forget to upload any pending records!"
-msgstr "Tafadhali usisahau kupakia rekodi zozote zilizosalia! "
+msgstr "¡Por favor, no olvide cargar los registros pendientes!"
 
 # All records page tip
 msgid "OK, got it"
-msgstr "Sawa, nimeelewa"
+msgstr "Okey, entendido"
 
 # Error messages from server for user account actions
 msgid "Sorry"
-msgstr "Samahani "
+msgstr "Perdón"
 
 # Error messages from server for user account actions
 msgid "Unauthorized"
-msgstr "Hujaruhusiwa"
+msgstr "No autorizado"
 
 # Error messages from server for user account actions
 msgid "Not found"
-msgstr "Haijapatikana"
+msgstr "Ilocalizable"
 
 # Error messages from server for user account actions
 msgid "Bad Request"
-msgstr " Ombi si sahihi"
+msgstr "Solicitud errónea"
 
 # Verification message
 msgid ""
 "Some of your records have been verified. Please check your records list."
 msgstr ""
-"Baadhi ya rekodi zako zimethibitishwa. Tafadhali angalia orodha ya rekodi "
-"zako."
+"Algunos de sus registros han sido verificados. Por favor, revise su lista de"
+" registros."
 
 # Record date stamp
 msgid "Yesterday"
-msgstr "Jana"
+msgstr "Ayer"
 
 # Part of photo picker
 msgid "Are you sure you want to remove this photo?"
-msgstr "Je, una uhakika unataka kuondoa picha hii? "
+msgstr "¿Estás seguro de que quieres eliminar esta foto?"
 
 # Part of photo picker
 msgid "Note: it will remain in the gallery."
-msgstr "Kumbuka: Itabaki kwenye kichanja cha picha. "
+msgstr "Nota: permanecerá en la galería."
 
 # Uploaded record message
 msgid "This record has been uploaded and can not be edited."
-msgstr "Rekodi hii imepakiwa na haiwezi kuhaririwa. "
+msgstr "Este registro se ha cargado y no se puede editar."
 
 # Successfully logged in message
 msgid "Successfully logged in"
-msgstr "Umeingia kwa mafanikio "
+msgstr "Sesión iniciada correctamente"
 
 # User form validation message
 msgid "Please fill in"
-msgstr "Tafadhali jaza "
+msgstr "Completar por favor"
 
 # User form validation message
 msgid "email must be a valid email"
-msgstr "Barua pepe lazima iwe sahihi"
+msgstr "Correo electrónico debe ser un correo electrónico válido"
 
 # Account option message
 msgid "You can delete your user account from the system."
-msgstr "Unaweza kufuta akaunti yako ya mtumiaji kutoka kwenye mfumo."
+msgstr "Puede eliminar su cuenta de usuario del sistema."
 
 # Account option message
 msgid "Account delete"
-msgstr "Kufuta akaunti "
+msgstr "Cuenta eliminada"
 
 # Account option message
 msgid "Delete account"
-msgstr "Futa akaunti "
+msgstr "Eliminar cuenta"
 
 # Account option message
 msgid "Are you sure you want to delete your account?"
-msgstr "Je, una hakika unataka kufuta akaunti yako?"
+msgstr "¿Confirma que quiera eliminar su cuenta?"
 
 # Account option message
 msgid ""
 "This will remove your account on the iRecord website. You will lose access "
 "to any records that you have previously submitted using the app or website."
 msgstr ""
-" Hii itaondoa akaunti yako kwenye tovuti ya iRecord. Utapoteza ufikiaji wa "
-"rekodi zozote ulizowahi kuwasilisha kwa kutumia programu au tovuti."
+"Esto eliminará su cuenta en el sitio web de iRecord. Perderá el acceso a "
+"cualquier registro que haya enviado anteriormente mediante la aplicación o "
+"el sitio web."
 
 # Photo picker failed to pick photo error message
 msgid "Sorry, we couldn't get the image."
-msgstr "Samahani, hatukuweza kupata picha."
+msgstr "Perdón, no hemos encontrado la imagen."
 
 # Successfully registration alert message
 msgid "Welcome aboard"
-msgstr "Karibu kwenye programu"
+msgstr "Bienvenido a bordo"
 
 # Language info popup
 msgid ""
@@ -537,50 +544,50 @@ msgid ""
 "want to change the language go to \"Settings\" in the Bloomin' Algae app "
 "menu and select \"Language\""
 msgstr ""
-" Lugha itawekwa kuwa ile iliyopo kwenye mipangilio ya simu yako kwa "
-"chaguomsingi. Ikiwa unataka kubadilisha lugha, nenda kwenye \"Mipangilio\" "
-"katika menyu ya programu ya Bloomin' Algae na uchague \"Lugha\"."
+"El idioma predeterminado será el idioma de la configuración de su teléfono. "
+"Si desea cambiar el idioma, vaya a \"Configuración\" en el menú de la "
+"aplicación Bloomin' Algae y seleccione \"Idioma\""
 
 # Successfully registration alert message
 msgid ""
 "Before starting any records please check your email and click on the "
 "verification link."
 msgstr ""
-" Kabla ya kuanza rekodi yoyote, tafadhali angalia barua pepe yako na ubofye "
-"kiungo cha uthibitisho."
+"Antes de iniciar cualquier registro, revise su correo electrónico y haga "
+"clic en el enlace de verificación."
 
 # User registration
 msgid "email is not valid"
-msgstr "Barua pepe si sahihi"
+msgstr "El correo electrónico no es válido"
 
 # User verification messages
 msgid ""
 "Before starting any surveys please check your email and click on the "
 "verification link."
 msgstr ""
-"Kabla ya kuanza uchunguzi wowote, tafadhali angalia barua pepe yako na "
-"ubofye kiungo cha uthibitisho."
+"Antes de iniciar cualquier sondeo, revise su correo electrónico y haga clic "
+"en el enlace de verificación."
 
 # User verification messages
 msgid "Resend"
-msgstr "Tuma tena"
+msgstr "Reenviar"
 
 # User verification messages
 msgid "Looks like your email hasn't been verified yet."
-msgstr "Inaonekana barua pepe yako bado haijathibitishwa."
+msgstr "Parece que tu correo electrónico todavía no ha sido verificado."
 
 # User verification messages
 msgid "Should we resend the verification email?"
-msgstr "Je, tutume tena barua pepe ya uthibitisho? "
+msgstr "¿Volvemos a enviar el correo electrónico de verificación?"
 
 # User verification messages
 msgid ""
 "A new verification email was successfully sent now. If you did not receive "
 "the email, then check your Spam or Junk email folders."
 msgstr ""
-"Barua pepe mpya ya uthibitisho imetumwa kwa mafanikio sasa. Ikiwa hujapokea "
-"barua pepe, tafadhali angalia folda ya barua taka au barua pepe "
-"zisizohitajika."
+"Ahora se ha enviado con éxito un nuevo correo electrónico de verificación. "
+"Si no recibió el correo electrónico, revise su carpeta de correo basura o "
+"correo no deseado."
 
 # Survey page
 msgid "Add species"
@@ -593,7 +600,7 @@ msgstr ""
 
 # Survey page
 msgid "What activities are done at this location?"
-msgstr "Ni shughuli gani zinafanyika katika eneo hili?"
+msgstr "¿Qué actividades se hacen en este lugar?"
 
 # Survey page
 msgid "Species"
@@ -645,7 +652,7 @@ msgstr ""
 
 # Survey page
 msgid "Got it"
-msgstr "Nimeielewa!"
+msgstr "¡Entendido!"
 
 # Survey page
 msgid "Please add at least one photo of the species"
@@ -705,7 +712,7 @@ msgstr ""
 
 # Info pages
 msgid "Info"
-msgstr "Taarifa"
+msgstr "Informaciónes"
 
 # Info pages
 msgid "About"
@@ -713,15 +720,15 @@ msgstr ""
 
 # Info pages
 msgid "What do we use your records for?"
-msgstr "Tunatumia rekodi zako kwa nini?"
+msgstr "¿Para qué utilizamos sus registros?"
 
 # Info pages
 msgid "Credits"
-msgstr "Shukrani"
+msgstr "Créditos"
 
 # Info pages
 msgid "BRC approved"
-msgstr "BRC Imeidhinishwa"
+msgstr "Aprobado por BRC"
 
 # Info pages
 msgid "Privacy Policy"
@@ -822,10 +829,10 @@ msgid ""
 "assurance; made available for conservation and research and preserved for "
 "long-term use."
 msgstr ""
-"Popote unapoona nembo hii kwenye programu ya kurekodi data za kibiolojia, "
-"unaweza kuwa na uhakika kuwa data unazowasilisha zitapatikana kwa: Wataalamu"
-" kwa ajili ya uhakiki wa ubora; Uhifadhi wa mazingira na utafiti; Matumizi "
-"ya muda mrefu."
+"Donde ve este logotipo en una aplicación de registro biológico, puede estar "
+"seguro de que los datos que envíe serán: puestos a disposición de expertos "
+"para la garantía de calidad; puestos a disposición para la conservación y la"
+" investigación y preservados para su uso a largo plazo."
 
 # Info pages
 msgid ""
@@ -835,16 +842,16 @@ msgid ""
 "of iRecord.</0><1>Quality assured data is passed onto Local Environmental "
 "Records Centres, National Recording Schemes and to the NBN Gateway.</1></1>"
 msgstr ""
-"Nembo hii inaonyesha kuwa data zako: 1 2 zinatumwa kwa Kituo cha Kurekodi "
-"Data za Kibiolojia (BRC) kupitia mfumo wa iRecord, ambapo zitapatikana kwako"
-" kama mrekodi, kwa jamii ya wataalamu wanaothibitisha data na kwa watumiaji "
-"wengine wa iRecord. 2 3 Data zilizo na uhakika wa ubora hutumwa kwa: Vituo "
-"vya Kumbukumbu za Mazingira vya Mitaa, Mipango ya Kitaifa ya Kurekodi Aina "
-"za Viumbe, Mfumo wa Taifa wa Biodiversity (NBN Gateway) 3 1 "
+"Este logotipo indica que sus datos son\\:<1><0>enviados al almacén de datos "
+"del Centro de Registro Biológico vinculado al sistema iRecord donde es "
+"accesible para usted como registrador, a una comunidad experta de "
+"verificadores y otros usuarios de iRecord.</0><1>Los datos de calidad "
+"asegurada se transmiten a los Centros de Registros Ambientales Locales, a "
+"los Esquemas Nacionales de Registro y a la puerta de enlace NBN.</1></1>"
 
 # Info pages
 msgid "About BRC"
-msgstr "Kuhusu Kituo cha Kurekodi Data za Kibiolojia (BRC)"
+msgstr "Sobre BRC"
 
 # Info pages
 msgid ""
@@ -856,21 +863,18 @@ msgid ""
 "for Ecology & Hydrology (UKCEH). The work of BRC is a major BRC of the "
 "National Biodiversity Network (NBN)."
 msgstr ""
-"Kituo cha Kurekodi Data za Kibiolojia (BRC) BRC, kilichoanzishwa mwaka 1964,"
-" ni kituo kikuu nchini Uingereza kwa ajili ya kurekodi spishi za viumbe vya "
-"nchi kavu na maji safi. Inafanya kazi kwa karibu na jamii za kurekodi data "
-"kwa hiari, hasa kwa kuunga mkono mipango ya kitaifa ya kurekodi spishi na "
-"jumuiya za kisayansi. BRC inasaidiwa na Kamati ya Pamoja ya Uhifadhi wa "
-"Mazingira (JNCC) na Kituo cha Ikolojia na Hydrology cha Uingereza (UKCEH). "
-"Utakapokua ukitumia programu yetu, unaweza kugundua kuwa baadhi ya programu "
-"za BRC zinaonyesha spishi zilezile? Tumetambulisha nembo ya BRC Approved ili"
-" kuhakikisha kuwa data kutoka kwa programu zetu zote zinaenda mahali pamoja."
-" Una uhuru wa kuchagua programu yoyote kurekodi spishi, na rekodi zote "
-"zitahifadhiwa katika mfumo uleule na kufuata viwango vya ubora vya BRC."
+"El <1>Centro de Registros Biológicos</1> (BRC), establecido en 1964, es un "
+"foco nacional en el Reino Unido para el registro de especies terrestres y de"
+" agua dulce. El BRC colabora atentamente con la comunidad de voluntarios, "
+"principalmente mediante el apoyo a los sistemas y sociedades nacionales de "
+"registro. El BRC cuenta con el apoyo del Comité Conjunto para la "
+"Conservación de la Naturaleza (JNCC) y el Centro de Ecología e Hidrología "
+"(UKCEH). El trabajo del BRC es uno de los principales BRC de la Red Nacional"
+" de Biodiversidad (NBN)."
 
 # Info pages
 msgid "Which app should I use?"
-msgstr "Ni programu gani ninapaswa kutumia? "
+msgstr "¿Qué aplicación debo usar?"
 
 # Info pages
 msgid ""
@@ -881,11 +885,13 @@ msgid ""
 " same place, treated in the same way and will meet the established standards"
 " required by the Biological Record Centre."
 msgstr ""
-"Utakapokua ukitumia programu yetu, unaweza kugundua kuwa baadhi ya programu "
-"za BRC zinaonyesha spishi zilezile? Tumetambulisha nembo ya BRC Approved ili"
-" kuhakikisha kuwa data kutoka kwa programu zetu zote zinaenda mahali pamoja."
-" Una uhuru wa kuchagua programu yoyote kurekodi spishi, na rekodi zote "
-"zitahifadhiwa katika mfumo uleule na kufuata viwango vya ubora vya BRC."
+"¿Puede ser que hayas notado que varias de las <1> aplicaciones de BRC</1> "
+"cuentan con algunas de las mismas especies? Hemos introducido el logo "
+"aprobado por BRC para indicar que los datos de nuestras aplicaciones van al "
+"mismo lugar. Por lo tanto, usted es libre de elegir qué aplicación utiliza "
+"para registrar una determinada especie. Todos los registros serán enviados "
+"al mismo lugar, tratados de la misma manera y cumplirán con las normas "
+"establecidas exigidas por el Centro de Registro Biológico."
 
 # Info pages
 msgid "Swahili"

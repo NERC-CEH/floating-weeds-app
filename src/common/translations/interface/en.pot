@@ -7,3 +7,845 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
 "X-Generator: POEditor.com\n"
+
+# Onboarding page 
+msgid "Welcome to Floating Weeds!"
+msgstr "Welcome to Floating Weeds!"
+
+# Onboarding page 
+msgid "Floating weeds choke waterways and damage ecosystems. With the Floating Weeds app, your sightings help guide real-world solutions and satellite-based monitoring."
+msgstr "Floating weeds choke waterways and damage ecosystems. With the Floating Weeds app, your sightings help guide real-world solutions and satellite-based monitoring."
+
+# Home page popup
+msgid "The language will default to the language of your phone settings. If you want to change the language go to \"Settings\" in the app menu and select \"Language\"."
+msgstr "The language will default to the language of your phone settings. If you want to change the language go to \"Settings\" in the app menu and select \"Language\"."
+
+# Button title
+msgid "Back"
+msgstr "Back"
+
+# Home page toolbar menu label
+msgid "Home"
+msgstr "Home"
+
+# Home page toolbar menu label
+msgid "Map"
+msgstr "Map"
+
+# Guide page information message
+msgid ""
+"If you are still not sure after looking at this guide please submit the "
+"record anyway"
+msgstr ""
+"If you are still not sure after looking at this guide please submit the "
+"record anyway"
+
+# My Records page header title
+msgid "Pending"
+msgstr "Pending"
+
+# My Records page header title
+msgid "Uploaded"
+msgstr "Uploaded"
+
+# My Records page record info message
+msgid "Draft"
+msgstr "Draft"
+
+# My Records page record info message
+msgid "To delete any records swipe it to the left."
+msgstr "To delete any records swipe it to the left."
+
+
+# Settings page header title
+msgid "Settings"
+msgstr "Settings"
+
+# Settings page label
+msgid "English"
+msgstr "English"
+
+# Settings page label
+msgid "Language"
+msgstr "Language"
+
+# Settings page message
+msgid "Share app crash data so we can make the app more reliable."
+msgstr "Share app crash data so we can make the app more reliable."
+
+# Settings page label
+msgid "Reset App"
+msgstr "Reset App"
+
+# Settings page label
+msgid "Share App Analytics"
+msgstr "Share App Analytics"
+
+# Reset app alert button label
+msgid "Cancel"
+msgstr "Cancel"
+
+
+
+# Start record draft title
+msgid "No uploaded records"
+msgstr "No uploaded records"
+
+# Start record draft button label
+msgid "Discard"
+msgstr "Discard"
+
+# Start record draft button label
+msgid "Continue"
+msgstr "Continue"
+
+# Start record draft button message
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr "Previous record draft exists, would you like to continue it?"
+
+# Record page label
+msgid "No photo has been added."
+msgstr "No photo has been added."
+
+# Record page label
+msgid "Press <1></1> to add."
+msgstr "Press <1></1> to add."
+
+# Record page label
+msgid "Location"
+msgstr "Location"
+
+# Record page label
+msgid "Today"
+msgstr "Today"
+
+# Record page label
+msgid "Date"
+msgstr "Date"
+
+
+# Record page label
+msgid "Activities"
+msgstr "Activities"
+
+# Record page label
+msgid "Comment"
+msgstr "Comment"
+
+# Record comment information message
+msgid "Please add any extra info about this record."
+msgstr "Please add any extra info about this record."
+
+# Record comment placeholder message
+msgid "Enter more information here..."
+msgstr "Enter more information here..."
+
+# Record activities information message
+msgid "What activities were you doing?"
+msgstr "What activities were you doing?"
+
+# Record activities content
+msgid "Walking / Running"
+msgstr "Walking / Running"
+
+# Record activities content
+msgid "Dog-walking"
+msgstr "Dog-walking"
+
+# Record activities content
+msgid "Cycling"
+msgstr "Cycling"
+
+# Record activities content
+msgid "Birdwatching"
+msgstr "Birdwatching"
+
+# Record activities content
+msgid "Fishing"
+msgstr "Fishing"
+
+# Record activities content
+msgid "Swimming"
+msgstr "Swimming"
+
+# Record activities content
+msgid "Boats / Watersports"
+msgstr "Boats / Watersports"
+
+# Record activities content
+msgid "Other"
+msgstr "Other"
+
+
+# Splash screen content
+msgid "Got it!"
+msgstr "Got it!"
+
+# Button label
+msgid "Delete"
+msgstr "Delete"
+
+# My records page background message
+msgid "No finished pending records."
+msgstr "No finished pending records."
+
+
+# Record incomplete pop up title
+msgid "Record incomplete"
+msgstr "Record incomplete"
+
+# Record verify location button label
+msgid "Incorrect"
+msgstr "Incorrect"
+
+# Record verify location button label
+msgid "Correct"
+msgstr "Correct"
+
+# Side menu label
+msgid "Navigate"
+msgstr "Navigate"
+
+
+# Side menu content
+msgid "App version"
+msgstr "App version"
+
+# Delete record alert message
+msgid "Are you sure you want to delete this record ?"
+msgstr "Are you sure you want to delete this record ?"
+
+
+# Record upload button label
+msgid "Upload"
+msgstr "Upload"
+
+# Record button label
+msgid "OK"
+msgstr "OK"
+
+# part of record
+msgid "DD/MM/YYYY"
+msgstr "DD/MM/YYYY"
+
+# part of record
+msgid "Record"
+msgstr "Record"
+
+
+# Settings reset alert message
+msgid "Done"
+msgstr "Done"
+
+# Info background message button label
+msgid "Hide"
+msgstr "Hide"
+
+# Map page header label
+msgid "All Records"
+msgstr "All Records"
+
+
+# Record map toggle
+msgid "See past 12 months"
+msgstr "See past 12 months"
+
+# Record map toggle
+msgid "The default setting is the past 4 weeks of records."
+msgstr "The default setting is the past 4 weeks of records."
+
+# Record map toggle
+msgid "Please confirm this is your correct location."
+msgstr "Please confirm this is your correct location."
+
+# Record alert image on a map
+msgid "This record has no images."
+msgstr "This record has no images."
+
+# A verification popup setting
+msgid "Do not show again"
+msgstr "Do not show again"
+
+# Record status on a map
+msgid "rejected"
+msgstr "rejected"
+
+# Record status on a map
+msgid "complete"
+msgstr "complete"
+
+# Record status on a map
+msgid "plausible"
+msgstr "plausible"
+
+# Record status on a map
+msgid "verified"
+msgstr "verified"
+
+# Part of User authentication page
+msgid "Register/Login"
+msgstr "Register/Login"
+
+# Part of User authentication page
+msgid "Login"
+msgstr "Login"
+
+# Part of User authentication page
+msgid "Register"
+msgstr "Register"
+
+# Part of User authentication page
+msgid "Sign in"
+msgstr "Sign in"
+
+# Part of User authentication page
+msgid "First Name"
+msgstr "First Name"
+
+# Part of User authentication page
+msgid "Surname"
+msgstr "Surname"
+
+# Part of User authentication page
+msgid "Reset"
+msgstr "Reset"
+
+# Part of User authentication page
+msgid "Create a free account"
+msgstr "Create a free account"
+
+# Part of User authentication page
+msgid "First name"
+msgstr "First name"
+
+# Part of User authentication page
+msgid "Last name"
+msgstr "Last name"
+
+# Part of User authentication page
+msgid "Email"
+msgstr "Email"
+
+# Part of User authentication page
+msgid "Password"
+msgstr "Password"
+
+# Part of User authentication page
+msgid ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
+msgstr ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
+
+# Part of User authentication page
+msgid "Sign Up"
+msgstr "Sign Up"
+
+# Part of User authentication page
+msgid "I am already a member"
+msgstr "I am already a member"
+
+# Part of User authentication page
+msgid "Sign In"
+msgstr "Sign In"
+
+# part of User authentication page
+msgid "Welcome back"
+msgstr "Welcome back"
+
+# Part of User authentication page
+msgid "Sign in to your account to start"
+msgstr "Sign in to your account to start"
+
+# Part of User authentication page
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+# Part of User authentication page
+msgid "firstName is a required field"
+msgstr "firstName is a required field"
+
+# Part of User authentication page
+msgid "Enter your email address to request a password reset."
+msgstr "Enter your email address to request a password reset."
+
+# Part of User authentication page
+msgid "email is a required field"
+msgstr "email is a required field"
+
+# Part of User authentication page
+msgid "password is a required field"
+msgstr "password is a required field"
+
+# Part of User authentication page
+msgid "secondName is a required field"
+msgstr "secondName is a required field"
+
+# User authentication alert
+msgid "Logout"
+msgstr "Logout"
+
+# User authentication alert
+msgid "Are you sure you want to logout?"
+msgstr "Are you sure you want to logout?"
+
+# User authentication alert
+msgid "Discard local data"
+msgstr "Discard local data"
+
+# User authentication alert
+msgid "Please wait..."
+msgstr "Please wait..."
+
+# Survey header button
+msgid "Finish"
+msgstr "Finish"
+
+# Survey camera options
+msgid "Choose a method to upload a photo"
+msgstr "Choose a method to upload a photo"
+
+# Camera empty input message
+msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
+msgstr "No photo has been added.<br/>Press <4><0></0></4> to add."
+
+# Survey page 
+msgid "Location name e.g. lake, reservoir or pond name"
+msgstr "Location name e.g. lake, reservoir or pond name"
+
+# Survey page 
+msgid "Map Settings"
+msgstr "Map Settings"
+
+# Survey page 
+msgid "Map Type"
+msgstr "Map Type"
+
+# Survey page 
+msgid "Standard"
+msgstr "Standard"
+
+# Survey page 
+msgid "Satellite"
+msgstr "Satellite"
+
+# Survey camera options
+msgid "Gallery"
+msgstr "Gallery"
+
+# Survey camera options
+msgid "Camera"
+msgstr "Camera"
+
+# User-surveys page background message
+msgid "Please do not forget to upload any pending records!"
+msgstr "Please do not forget to upload any pending records!"
+
+# All records page tip
+msgid "OK, got it"
+msgstr "OK, got it"
+
+# Error messages from server for user account actions
+msgid "Sorry"
+msgstr "Sorry"
+
+# Error messages from server for user account actions
+msgid "Unauthorized"
+msgstr "Unauthorized"
+
+# Error messages from server for user account actions
+msgid "Not found"
+msgstr "Not found"
+
+# Error messages from server for user account actions
+msgid "Bad Request"
+msgstr "Bad Request"
+
+# Verification message
+msgid ""
+"Some of your records have been verified. Please check your records list."
+msgstr ""
+"Some of your records have been verified. Please check your records list."
+
+# Record date stamp
+msgid "Yesterday"
+msgstr "Yesterday"
+
+
+
+# Part of photo picker
+msgid "Are you sure you want to remove this photo?"
+msgstr "Are you sure you want to remove this photo?"
+
+# Part of photo picker
+msgid "Note: it will remain in the gallery."
+msgstr "Note: it will remain in the gallery."
+
+# Uploaded record message
+msgid "This record has been uploaded and can not be edited."
+msgstr "This record has been uploaded and can not be edited."
+
+# Successfully logged in message
+msgid "Successfully logged in"
+msgstr "Successfully logged in"
+
+# User form validation message
+msgid "Please fill in"
+msgstr "Please fill in"
+
+# User form validation message
+msgid "email must be a valid email"
+msgstr "email must be a valid email"
+
+# Account option message
+msgid "You can delete your user account from the system."
+msgstr "You can delete your user account from the system."
+
+# Account option message
+msgid "Account delete"
+msgstr "Account delete"
+
+# Account option message
+msgid "Delete account"
+msgstr "Delete account"
+
+# Account option message
+msgid "Are you sure you want to delete your account?"
+msgstr "Are you sure you want to delete your account?"
+
+# Account option message
+msgid "This will remove your account on the iRecord website. You will lose access to any records that you have previously submitted using the app or website."
+msgstr "This will remove your account on the iRecord website. You will lose access to any records that you have previously submitted using the app or website."
+
+# Photo picker failed to pick photo error message
+msgid "Sorry, we couldn't get the image."
+msgstr "Sorry, we couldn't get the image."
+
+# Successfully registration alert message
+msgid "Welcome aboard"
+msgstr "Welcome aboard"
+
+# Language info popup
+msgid "The language will default to the language of your phone settings. If you want to change the language go to \"Settings\" in the Bloomin' Algae app menu and select \"Language\""
+msgstr "The language will default to the language of your phone settings. If you want to change the language go to \"Settings\" in the Bloomin' Algae app menu and select \"Language\""
+
+# Successfully registration alert message
+msgid ""
+"Before starting any records please check your email and click on the "
+"verification link."
+msgstr ""
+"Before starting any records please check your email and click on the "
+"verification link."
+
+# User registration
+msgid "email is not valid"
+msgstr "email is not valid"
+
+# User verification messages 
+msgid "Before starting any surveys please check your email and click on the verification link."
+msgstr "Before starting any surveys please check your email and click on the verification link."
+
+# User verification messages 
+msgid "Resend"
+msgstr "Resend"
+
+# User verification messages 
+msgid "Looks like your email hasn't been verified yet."
+msgstr "Looks like your email hasn't been verified yet."
+
+# User verification messages 
+msgid "Should we resend the verification email?"
+msgstr "Should we resend the verification email?"
+
+# User verification messages 
+msgid "A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders."
+msgstr "A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders."
+
+# Survey page 
+msgid "Add species"
+msgstr "Add species"
+
+# Survey page 
+msgid "Your species list is empty. <br/> tap the \"Add species\" button to add one."
+msgstr "Your species list is empty. <br/> tap the \"Add species\" button to add one."
+
+# Survey page 
+msgid "What activities are done at this location?"
+msgstr "What activities are done at this location?"
+
+# Survey page 
+msgid "Species"
+msgstr "Species"
+
+# Survey page 
+msgid "Nile cabbage (Pistia stratiates)"
+msgstr "Nile cabbage (Pistia stratiates)"
+
+# Survey page 
+msgid "Papyrus (Cyperus papyrus)"
+msgstr "Papyrus (Cyperus papyrus)"
+
+# Survey page 
+msgid "Water ferns (Azolla sp.)"
+msgstr "Water ferns (Azolla sp.)"
+
+# Survey page 
+msgid "Water hyacinth (Pontederia crassipes)"
+msgstr "Water hyacinth (Pontederia crassipes)"
+
+# Survey page 
+msgid "Water Lettuce (Pistia stratiotes)"
+msgstr "Water Lettuce (Pistia stratiotes)"
+
+# Survey page 
+msgid "Watermosses (Salvinia sp.)"
+msgstr "Watermosses (Salvinia sp.)"
+
+# Survey page 
+msgid "Edit Species"
+msgstr "Edit Species"
+
+# Survey page 
+msgid "Quantity"
+msgstr "Quantity"
+
+# Survey page 
+msgid "Certainty"
+msgstr "Certainty"
+
+# Survey page 
+msgid "Papyrus"
+msgstr "Papyrus"
+
+# Survey page 
+msgid "Report incomplete"
+msgstr "Report incomplete"
+
+# Survey page 
+msgid "Got it"
+msgstr "Got it"
+
+# Survey page 
+msgid "Please add at least one photo of the species"
+msgstr "Please add at least one photo of the species"
+
+# Survey page 
+msgid "Please add at least one species"
+msgstr "Please add at least one species"
+
+# Survey page 
+msgid "Water ferns"
+msgstr "Water ferns"
+
+# Survey page 
+msgid "Nile cabbage"
+msgstr "Nile cabbage"
+
+# Survey page 
+msgid "Pistia stratiates"
+msgstr "Pistia stratiates"
+
+# Survey page 
+msgid "Cyperus papyrus"
+msgstr "Cyperus papyrus"
+
+# Survey page 
+msgid "Azolla sp."
+msgstr "Azolla sp."
+
+# Survey page 
+msgid "Water hyacinth"
+msgstr "Water hyacinth"
+
+# Survey page 
+msgid "Pontederia crassipes"
+msgstr "Pontederia crassipes"
+
+# Survey page 
+msgid "Water Lettuce"
+msgstr "Water Lettuce"
+
+# Survey page 
+msgid "Pistia stratiotes"
+msgstr "Pistia stratiotes"
+
+# Survey page 
+msgid "Watermosses"
+msgstr "Watermosses"
+
+# Survey page 
+msgid "Salvinia sp."
+msgstr "Salvinia sp."
+
+# Info pages 
+msgid "User"
+msgstr "User"
+
+# Info pages 
+msgid "Info"
+msgstr "Info"
+
+# Info pages 
+msgid "About"
+msgstr "About"
+
+# Info pages 
+msgid "What do we use your records for?"
+msgstr "What do we use your records for?"
+
+# Info pages 
+msgid "Credits"
+msgstr "Credits"
+
+# Info pages 
+msgid "BRC approved"
+msgstr "BRC approved"
+
+# Info pages 
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+# Info pages 
+msgid "App"
+msgstr "App"
+
+# Info pages 
+msgid "Are you sure you want to logout?<br/><br/>Your pending and uploaded <4>surveys will not be deleted </4> from this device."
+msgstr "Are you sure you want to logout?<br/><br/>Your pending and uploaded <4>surveys will not be deleted </4> from this device."
+
+# Info pages 
+msgid "Floating Weeds is a Citizen Science app for reporting the presence of floating weeds such as water hyacinth. The records you send in help to target the monitoring and eradication of these weeds. You will receive feedback on the records you submit; this can help you learn how to recognise the different floating and emergent plants and look for patterns in their appearance."
+msgstr "Floating Weeds is a Citizen Science app for reporting the presence of floating weeds such as water hyacinth. The records you send in help to target the monitoring and eradication of these weeds. You will receive feedback on the records you submit; this can help you learn how to recognise the different floating and emergent plants and look for patterns in their appearance."
+
+# Info pages 
+msgid "As well as submitting an image, location and date, we ask you to confirm what general activities you, or others, are carrying out in, or around, the water (such as dog walking, fishing, kayaking). By gathering details of activities undertaken we hope to gain a better understanding of how floating weeds are affecting the use of freshwaters. For example, floating weeds can block waterways and get tangled in boat propellers causing damage and disruption."
+msgstr "As well as submitting an image, location and date, we ask you to confirm what general activities you, or others, are carrying out in, or around, the water (such as dog walking, fishing, kayaking). By gathering details of activities undertaken we hope to gain a better understanding of how floating weeds are affecting the use of freshwaters. For example, floating weeds can block waterways and get tangled in boat propellers causing damage and disruption."
+
+# Info pages 
+msgid "Your records will help us verify and improve the accuracy of our satellite derived floating weed maps on the <2>Floating Weed Manager</2> portal. Your anonymised records will also be added to the portal’s map."
+msgstr "Your records will help us verify and improve the accuracy of our satellite derived floating weed maps on the <2>Floating Weed Manager</2> portal. Your anonymised records will also be added to the portal’s map."
+
+# Info pages 
+msgid "When you submit a record, it is stored within the iRecord website where it will be displayed to users, and examined and verified by an expert. Only your records are available publicly, not your contact details. Although records may be collated and disseminated for use in education, scientific research and other activities of benefit to the public, your contact details will not be shared."
+msgstr "When you submit a record, it is stored within the iRecord website where it will be displayed to users, and examined and verified by an expert. Only your records are available publicly, not your contact details. Although records may be collated and disseminated for use in education, scientific research and other activities of benefit to the public, your contact details will not be shared."
+
+# Info pages 
+msgid "<0><0>To get a better understanding of the timing and location of floating weeds; this helps us understand how climate change is affecting their growth and distribution, and helps prediction of future impacts.</0><br/><2>To support environment agencies and water companies in water quality and floating weed risk management and prevention.</2><br/><4>To help monitor and eradicate floating weeds more efficiently, helping to keep canals and waterways clear.</4></0>"
+msgstr "<0><0>To get a better understanding of the timing and location of floating weeds; this helps us understand how climate change is affecting their growth and distribution, and helps prediction of future impacts.</0><br/><2>To support environment agencies and water companies in water quality and floating weed risk management and prevention.</2><br/><4>To help monitor and eradicate floating weeds more efficiently, helping to keep canals and waterways clear.</4></0>"
+
+# Info pages 
+msgid "The project would like to thank UKCEH, KMFRI and USACE for their advice and guidance during the development of the app."
+msgstr "The project would like to thank UKCEH, KMFRI and USACE for their advice and guidance during the development of the app."
+
+# Info pages 
+msgid "We are grateful to all the people that helped to create this app:"
+msgstr "We are grateful to all the people that helped to create this app:"
+
+# Info pages 
+msgid "<0><0>Kate Randall (UKCEH)</0><1>Gemma Nash (UKCEH)</1><2>Linda May (UKCEH)</2><3>France Gerard (UKCEH)</3><4>Emma Tebbs (KCL)</4><5>Winnifred Owoko (KCL)</5><6>Karolis Kazlauskis (Flumens)</6></0>"
+msgstr "<0><0>Kate Randall (UKCEH)</0><1>Gemma Nash (UKCEH)</1><2>Linda May (UKCEH)</2><3>France Gerard (UKCEH)</3><4>Emma Tebbs (KCL)</4><5>Winnifred Owoko (KCL)</5><6>Karolis Kazlauskis (Flumens)</6></0>"
+
+# Info pages 
+msgid "Home photo by <2>DEBRAJ PURKAYASTHA</2> on <6>Unsplash</6>"
+msgstr "Home photo by <2>DEBRAJ PURKAYASTHA</2> on <6>Unsplash</6>"
+
+# Info pages 
+msgid "<0><0><0></0></0></0>This app was hand crafted with love by <3>Flumens.</3> A technical consultancy that excels at building bespoke environmental science and community focussed solutions. For suggestions and feedback please do not hesitate to <7>contact us</7>."
+msgstr "<0><0><0></0></0></0>This app was hand crafted with love by <3>Flumens.</3> A technical consultancy that excels at building bespoke environmental science and community focussed solutions. For suggestions and feedback please do not hesitate to <7>contact us</7>."
+
+# Info pages 
+msgid "Wherever you see this logo on a biological recording app you can be assured that the data you submit will be: made available to experts for quality assurance; made available for conservation and research and preserved for long-term use."
+msgstr "Wherever you see this logo on a biological recording app you can be assured that the data you submit will be: made available to experts for quality assurance; made available for conservation and research and preserved for long-term use."
+
+# Info pages 
+msgid "This logo indicates that your data is:<1><0>Sent to the Biological Record Centre’s data warehouse linked to the iRecord system where it is accessible to you as the recorder, to an expert community of verifiers and other users of iRecord.</0><1>Quality assured data is passed onto Local Environmental Records Centres, National Recording Schemes and to the NBN Gateway.</1></1>"
+msgstr "This logo indicates that your data is:<1><0>Sent to the Biological Record Centre’s data warehouse linked to the iRecord system where it is accessible to you as the recorder, to an expert community of verifiers and other users of iRecord.</0><1>Quality assured data is passed onto Local Environmental Records Centres, National Recording Schemes and to the NBN Gateway.</1></1>"
+
+# Info pages 
+msgid "About BRC"
+msgstr "About BRC"
+
+# Info pages 
+msgid "The <1>Biological Records Centre</1> (BRC), established in 1964, is a national focus in the UK for terrestrial and freshwater species recording. BRC works closely with the voluntary recording community, principally through support of national recording schemes and societies. BRC is supported by the Joint Nature Conservation Committee (JNCC) and the Centre for Ecology & Hydrology (UKCEH). The work of BRC is a major BRC of the National Biodiversity Network (NBN)."
+msgstr "The <1>Biological Records Centre</1> (BRC), established in 1964, is a national focus in the UK for terrestrial and freshwater species recording. BRC works closely with the voluntary recording community, principally through support of national recording schemes and societies. BRC is supported by the Joint Nature Conservation Committee (JNCC) and the Centre for Ecology & Hydrology (UKCEH). The work of BRC is a major BRC of the National Biodiversity Network (NBN)."
+
+# Info pages 
+msgid "Which app should I use?"
+msgstr "Which app should I use?"
+
+# Info pages 
+msgid "You might have noticed that several of<1> BRC apps</1> feature some of the same species? We have introduced the BRC Approved logo to signify that data from our apps all go to the same place. Therefore, you are free to choose which app you use to record a given species. All records will be sent to the same place, treated in the same way and will meet the established standards required by the Biological Record Centre."
+msgstr "You might have noticed that several of<1> BRC apps</1> feature some of the same species? We have introduced the BRC Approved logo to signify that data from our apps all go to the same place. Therefore, you are free to choose which app you use to record a given species. All records will be sent to the same place, treated in the same way and will meet the established standards required by the Biological Record Centre."
+
+# Info pages 
+msgid "Swahili"
+msgstr "Swahili"
+
+# Info pages 
+msgid "Share with app developers"
+msgstr "Share with app developers"
+
+# Info pages 
+msgid "Export database"
+msgstr "Export database"
+
+# Info pages 
+msgid "Export"
+msgstr "Export"
+
+# Info pages 
+msgid "Are you sure you want to export the data?<1>This feature is intended solely for technical support and is not a supported method for exporting your data</1>"
+msgstr "Are you sure you want to export the data?<1>This feature is intended solely for technical support and is not a supported method for exporting your data</1>"
+
+# Info pages 
+msgid "Menu"
+msgstr "Menu"
+
+# Verification pages 
+msgid "Close"
+msgstr "Close"
+
+# Verification pages 
+msgid "Next"
+msgstr "Next"
+
+# Verification pages 
+msgid "Not accepted as correct"
+msgstr "Not accepted as correct"
+
+# Verification pages 
+msgid "Verification"
+msgstr "Verification"
+
+# Verification pages 
+msgid "Thanks for sending in your record. From this record details, we think it could be the <1>{{taxonName}}</1> species."
+msgstr "Thanks for sending in your record. From this record details, we think it could be the <1>{{taxonName}}</1> species."
+
+# Verification pages 
+msgid "Thanks for sending in your record. A verifier has marked it as <2>\"{{statusMessage}}\"</2> in this case."
+msgstr "Thanks for sending in your record. A verifier has marked it as <2>\"{{statusMessage}}\"</2> in this case."
+
+# Verification pages 
+msgid "Please log in to the iRecord website to see any additional information that the verifier may have provided."
+msgstr "Please log in to the iRecord website to see any additional information that the verifier may have provided."
+
+# Verification pages 
+msgid "Details"
+msgstr "Details"
+
+# Verification pages 
+msgid "Verified by:"
+msgstr "Verified by:"
+
+# Verification pages 
+msgid "Verified on:"
+msgstr "Verified on:"
+
+# Verification pages 
+msgid "Accepted as correct"
+msgstr "Accepted as correct"
+
+# Verification pages 
+msgid "Thanks for sending in your record."
+msgstr "Thanks for sending in your record."

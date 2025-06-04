@@ -70,7 +70,9 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
           <div className="flex w-full items-center gap-2 pr-1">
             <div className="list-avatar m-1">{image}</div>
             <div className="flex w-full flex-col overflow-hidden p-1">
-              <div className="font-semibold">{occ.data.taxon?.commonName}</div>
+              <div className="font-semibold">
+                <T>{occ.data.taxon?.commonName}</T>
+              </div>
               <div className="italic">{occ.data.taxon?.scientificName}</div>
             </div>
           </div>

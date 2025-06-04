@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { observer } from 'mobx-react';
-import { Trans as T } from 'react-i18next';
+import { Trans as T, useTranslation } from 'react-i18next';
 import { Source } from 'react-map-gl/mapbox';
 import { Main, MapContainer, useAlert } from '@flumens';
 import { IonSpinner } from '@ionic/react';
@@ -96,6 +96,7 @@ const useRecordPopup = (records: Record[]) => {
 
 const useClusterPopup = (records: Record[]) => {
   const alert = useAlert();
+  const { t } = useTranslation();
 
   const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
 
@@ -153,7 +154,7 @@ const useClusterPopup = (records: Record[]) => {
       // add Next button only if there are multiple features
       if (features.length > 1) {
         buttons.unshift({
-          text: `Next (${featureIndex + 1}/${features.length})`,
+          text: `${t('Next')} (${featureIndex + 1}/${features.length})`,
           handler: handleNext,
         } as any);
       }

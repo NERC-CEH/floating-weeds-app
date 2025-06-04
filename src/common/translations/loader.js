@@ -4,6 +4,7 @@
 
 /* eslint-disable camelcase */
 import en from './interface/en.pot';
+import es from './interface/es.po';
 import swKE from './interface/sw_KE.po';
 
 const rawToKeyVal = lang =>
@@ -34,6 +35,9 @@ const rawToKeyVal = lang =>
 export default {
   en: {
     interface: rawToKeyVal(en),
+  },
+  es: {
+    interface: rawToKeyVal(es),
   },
   'sw-KE': {
     interface: rawToKeyVal(swKE),

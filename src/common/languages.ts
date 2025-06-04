@@ -3,6 +3,7 @@ import { isPlatform } from '@ionic/react';
 const languages = {
   en: 'English',
   'sw-KE': 'Swahili',
+  es: 'Spanish',
   sw: { default: 'sw-KE' },
 };
 

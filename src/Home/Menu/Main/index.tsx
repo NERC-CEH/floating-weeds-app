@@ -49,7 +49,9 @@ const MenuMain = ({
 
   return (
     <Main className="app-menu">
-      <h1 className="w-full text-center font-semibold">Menu</h1>
+      <h1 className="w-full text-center font-semibold">
+        <T>Menu</T>
+      </h1>
 
       <IonList lines="full" className="mb-4">
         <h3 className="list-title">

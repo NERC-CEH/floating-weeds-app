@@ -66,7 +66,9 @@ const Survey = ({ sample }: Props) => {
         <h3>
           <T>Record</T>
         </h3>
-        <p>{getRelativeDate(date)}</p>
+        <p>
+          <T>{getRelativeDate(date)}</T>
+        </p>
       </div>
     );
   }

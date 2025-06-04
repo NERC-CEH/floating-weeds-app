@@ -60,6 +60,7 @@ const newLanguageCodeWrap = ({ newValue }) => {
   }
 
   const newLanguageCode = newValue.replace('_', '-'); // backwards compatible
+  console.log(`Language changed to ${newLanguageCode}`);
   i18n.changeLanguage(newLanguageCode);
 
   document.body.setAttribute('lang', newValue);
