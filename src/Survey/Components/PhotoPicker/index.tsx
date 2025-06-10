@@ -1,8 +1,9 @@
 import { ComponentProps } from 'react';
 import { observer } from 'mobx-react';
 import { close } from 'ionicons/icons';
+import { Capacitor } from '@capacitor/core';
 import { PhotoPicker, captureImage } from '@flumens';
-import { IonButton, IonIcon } from '@ionic/react';
+import { IonButton, IonIcon, isPlatform } from '@ionic/react';
 import config from 'common/config';
 import Media from 'models/media';
 import Occurrence from 'models/occurrence';
@@ -34,7 +35,11 @@ const AppPhotoPicker = ({
     });
     if (!image) return;
 
-    const imageModel = await Media.getImageModel(image, config.dataPath);
+    const imageModel = await Media.getImageModel(
+      isPlatform('hybrid') ? Capacitor.convertFileSrc(image) : image,
+      config.dataPath,
+      true
+    );
     model.media.push(imageModel as any);
     model.save();
   };
