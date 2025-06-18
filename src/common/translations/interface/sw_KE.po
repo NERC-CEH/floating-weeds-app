@@ -1,11 +1,12 @@
 # 
 # Translators:
 # Karolis, 2025
+# Patrick Otuo Wanguche, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2025\n"
+"Last-Translator: Patrick Otuo Wanguche, 2025\n"
 "Language-Team: Swahili (Kenya) (https://app.transifex.com/ceh/teams/269467/sw_KE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +17,7 @@ msgstr ""
 
 # Onboarding page
 msgid "Welcome to Floating Weeds!"
-msgstr ""
+msgstr "Karibu kwenye Magugu Yanayoelea!"
 
 # Onboarding page
 msgid ""
@@ -24,6 +25,9 @@ msgid ""
 "Weeds app, your sightings help guide real-world solutions and satellite-"
 "based monitoring."
 msgstr ""
+"Magugu yanayoelea husonga njia za maji na kuharibu mifumo ikolojia. Ukiwa na"
+" programu ya Magugu Yanayoelea, utazamaji wako husaidia kuelekeza "
+"masuluhisho ya ulimwengu halisi na ufuatiliaji unaotegemea satelaiti."
 
 # Home page popup
 msgid ""
@@ -31,6 +35,9 @@ msgid ""
 "want to change the language go to \"Settings\" in the app menu and select "
 "\"Language\"."
 msgstr ""
+"Lugha itakuwa chaguomsingi kwa lugha ya mipangilio ya simu yako. Ikiwa "
+"unataka kubadilisha lugha, nenda kwa \"Mipangilio\" kwenye menyu ya programu"
+" na uchague \"Lugha\"."
 
 # Button title
 msgid "Back"
@@ -230,7 +237,7 @@ msgstr "Sawa"
 
 # part of record
 msgid "DD/MM/YYYY"
-msgstr "  DD/MM/YYYYY Siku/Mwezi/Mwaka)"
+msgstr "  Siku/Mwezi/Mwaka"
 
 # part of record
 msgid "Record"
@@ -290,23 +297,23 @@ msgstr "Jisajili/Ingia"
 
 # Part of User authentication page
 msgid "Login"
-msgstr ""
+msgstr "Ingia"
 
 # Part of User authentication page
 msgid "Register"
-msgstr ""
+msgstr "Jisajili"
 
 # Part of User authentication page
 msgid "Sign in"
-msgstr ""
+msgstr "Ingia"
 
 # Part of User authentication page
 msgid "First Name"
-msgstr ""
+msgstr "Jina la kwanza"
 
 # Part of User authentication page
 msgid "Surname"
-msgstr ""
+msgstr "Jina la familia"
 
 # Part of User authentication page
 msgid "Reset"
@@ -337,8 +344,8 @@ msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
 msgstr ""
-"Kwa kubonyeza \"Jisajili\", unakubaliana na Sera Yetu ya Faragha na Sheria "
-"na Masharti yetu J"
+"Kwa kubonyeza jisajili, unakubaliana na <2>sera yetu ya faragha</2> na "
+"<6>Sheria na masharti yetu"
 
 # Part of User authentication page
 msgid "Sign Up"
@@ -410,7 +417,7 @@ msgstr " Chagua njia ya kupakia picha"
 
 # Camera empty input message
 msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
-msgstr "Hakuna picha iliyoongezwa. 1 Bonyeza 2 3 3 2 ili kuongeza."
+msgstr "Hakuna picha iliyoongezwa.<br/>Bonyeza <4><0></0></4> ili kuongeza."
 
 # Survey page
 msgid "Location name e.g. lake, reservoir or pond name"
@@ -418,19 +425,19 @@ msgstr " Jina la eneo, mfano: ziwa, bwawa au dimbwi "
 
 # Survey page
 msgid "Map Settings"
-msgstr ""
+msgstr "Mipangilio ya Ramani"
 
 # Survey page
 msgid "Map Type"
-msgstr ""
+msgstr "Aina ya ramani"
 
 # Survey page
 msgid "Standard"
-msgstr ""
+msgstr "Kiwango"
 
 # Survey page
 msgid "Satellite"
-msgstr ""
+msgstr "satelaiti"
 
 # Survey camera options
 msgid "Gallery"
@@ -584,12 +591,14 @@ msgstr ""
 
 # Survey page
 msgid "Add species"
-msgstr ""
+msgstr "Ongeza aina"
 
 # Survey page
 msgid ""
 "Your species list is empty. <br/> tap the \"Add species\" button to add one."
 msgstr ""
+"Orodha yako ya aina ni tupu. <br/> gusa kitufe cha \"Ongeza aina\" ili "
+"kuongeza moja."
 
 # Survey page
 msgid "What activities are done at this location?"
@@ -597,51 +606,51 @@ msgstr "Ni shughuli gani zinafanyika katika eneo hili?"
 
 # Survey page
 msgid "Species"
-msgstr ""
+msgstr "Aina"
 
 # Survey page
 msgid "Nile cabbage (Pistia stratiates)"
-msgstr ""
+msgstr "Kabichi ya Nile (Pistia stratiates)"
 
 # Survey page
 msgid "Papyrus (Cyperus papyrus)"
-msgstr ""
+msgstr "Matete (Cyperus papyrus)"
 
 # Survey page
 msgid "Water ferns (Azolla sp.)"
-msgstr ""
+msgstr "Feni za maji (Azolla sp.)"
 
 # Survey page
 msgid "Water hyacinth (Pontederia crassipes)"
-msgstr ""
+msgstr "Gugu maji (Pontederia crassipes)"
 
 # Survey page
 msgid "Water Lettuce (Pistia stratiotes)"
-msgstr ""
+msgstr "Nyasi ya maji (Pistia stratiotes)"
 
 # Survey page
 msgid "Watermosses (Salvinia sp.)"
-msgstr ""
+msgstr "Majimaji (Salvinia sp.)"
 
 # Survey page
 msgid "Edit Species"
-msgstr ""
+msgstr "Hariri au kagua aina"
 
 # Survey page
 msgid "Quantity"
-msgstr ""
+msgstr "Kiasi"
 
 # Survey page
 msgid "Certainty"
-msgstr ""
+msgstr "Uhakika"
 
 # Survey page
 msgid "Papyrus"
-msgstr ""
+msgstr "Matete"
 
 # Survey page
 msgid "Report incomplete"
-msgstr ""
+msgstr "Ripoti haijakamilika"
 
 # Survey page
 msgid "Got it"
@@ -649,59 +658,59 @@ msgstr "Nimeielewa!"
 
 # Survey page
 msgid "Please add at least one photo of the species"
-msgstr ""
+msgstr "Tafadhali ongeza angalau picha moja ya aina "
 
 # Survey page
 msgid "Please add at least one species"
-msgstr ""
+msgstr "Tafadhali ongeza angalau aina moja"
 
 # Survey page
 msgid "Water ferns"
-msgstr ""
+msgstr "Feni za maji"
 
 # Survey page
 msgid "Nile cabbage"
-msgstr ""
+msgstr "Kabichi ya Nile"
 
 # Survey page
 msgid "Pistia stratiates"
-msgstr ""
+msgstr "Pistia stratiates"
 
 # Survey page
 msgid "Cyperus papyrus"
-msgstr ""
+msgstr "Cyperus papyrus"
 
 # Survey page
 msgid "Azolla sp."
-msgstr ""
+msgstr "Azolla sp."
 
 # Survey page
 msgid "Water hyacinth"
-msgstr ""
+msgstr "Magugu ya maji"
 
 # Survey page
 msgid "Pontederia crassipes"
-msgstr ""
+msgstr "Pontederia crassipes"
 
 # Survey page
 msgid "Water Lettuce"
-msgstr ""
+msgstr "Majimaji"
 
 # Survey page
 msgid "Pistia stratiotes"
-msgstr ""
+msgstr "Pistia stratiotes"
 
 # Survey page
 msgid "Watermosses"
-msgstr ""
+msgstr "Majimaji"
 
 # Survey page
 msgid "Salvinia sp."
-msgstr ""
+msgstr "Aina ya Salvinia "
 
 # Info pages
 msgid "User"
-msgstr ""
+msgstr "Mtumiaji"
 
 # Info pages
 msgid "Info"
@@ -709,7 +718,7 @@ msgstr "Taarifa"
 
 # Info pages
 msgid "About"
-msgstr ""
+msgstr "Kuhusu"
 
 # Info pages
 msgid "What do we use your records for?"
@@ -725,17 +734,19 @@ msgstr "BRC Imeidhinishwa"
 
 # Info pages
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Sera ya Faragha"
 
 # Info pages
 msgid "App"
-msgstr ""
+msgstr "Programu"
 
 # Info pages
 msgid ""
 "Are you sure you want to logout?<br/><br/>Your pending and uploaded "
 "<4>surveys will not be deleted </4> from this device."
 msgstr ""
+"Je, una uhakika unataka kuondoka?<br/><br/>Tafiti zako zinazosubiri  na "
+"zilizopakiwa  <4>hazitafutwa </4> kutoka kwa kifaa hiki."
 
 # Info pages
 msgid ""
@@ -746,6 +757,11 @@ msgid ""
 " the different floating and emergent plants and look for patterns in their "
 "appearance."
 msgstr ""
+"Magugu Yanayoelea ni programu ya Sayansi ya Mwananchi kwa kuripoti uwepo wa "
+"magugu yanayoelea kama vile gugu maji. Rekodi unazotuma husaidia kulenga "
+"ufuatiliaji na kutokomeza magugu haya. Utapokea maoni kuhusu rekodi "
+"unazowasilisha; hii inaweza kukusaidia kujifunza jinsi ya kutambua mimea "
+"tofauti inayoelea na inayochipuka na kutafuta ruwaza katika mwonekano wake."
 
 # Info pages
 msgid ""
@@ -757,6 +773,13 @@ msgid ""
 " block waterways and get tangled in boat propellers causing damage and "
 "disruption."
 msgstr ""
+"Pamoja na kuwasilisha picha, eneo na tarehe, tunakuomba uthibitishe ni "
+"shughuli zipi za jumla ambazo wewe, au wengine, mnafanya ndani, au karibu na"
+" maji (kama vile kutembea kwa mbwa, uvuvi, kayaking). Kwa kukusanya maelezo "
+"ya shughuli zilizofanywa tunatumai kupata ufahamu bora wa jinsi magugu "
+"yanayoelea yanavyoathiri matumizi ya maji baridi. Kwa mfano, magugu "
+"yanayoelea yanaweza kuzuia njia za maji na kuchanganyikiwa kwenye panga boti"
+" na kusababisha uharibifu na usumbufu."
 
 # Info pages
 msgid ""
@@ -889,19 +912,19 @@ msgstr ""
 
 # Info pages
 msgid "Swahili"
-msgstr ""
+msgstr "Kiswahili"
 
 # Info pages
 msgid "Share with app developers"
-msgstr ""
+msgstr "Shiriki na watengenezaji wa programu."
 
 # Info pages
 msgid "Export database"
-msgstr ""
+msgstr "hifadhidata ya usafirishaji"
 
 # Info pages
 msgid "Export"
-msgstr ""
+msgstr "Hamisha"
 
 # Info pages
 msgid ""
@@ -912,23 +935,23 @@ msgstr ""
 
 # Info pages
 msgid "Menu"
-msgstr ""
+msgstr "Menyu"
 
 # Verification pages
 msgid "Close"
-msgstr ""
+msgstr "Funga"
 
 # Verification pages
 msgid "Next"
-msgstr ""
+msgstr "Inayofuata"
 
 # Verification pages
 msgid "Not accepted as correct"
-msgstr ""
+msgstr "Haikubaliki kama sahihi"
 
 # Verification pages
 msgid "Verification"
-msgstr ""
+msgstr "Uthibitishaji"
 
 # Verification pages
 msgid ""

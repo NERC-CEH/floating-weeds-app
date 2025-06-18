@@ -1,11 +1,12 @@
 # 
 # Translators:
 # Karolis, 2025
+# Erica Zaja, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2025\n"
+"Last-Translator: Erica Zaja, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/ceh/teams/269467/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +17,7 @@ msgstr ""
 
 # Onboarding page
 msgid "Welcome to Floating Weeds!"
-msgstr ""
+msgstr "¡Bienvenido a Floating Weeds!"
 
 # Onboarding page
 msgid ""
@@ -24,6 +25,9 @@ msgid ""
 "Weeds app, your sightings help guide real-world solutions and satellite-"
 "based monitoring."
 msgstr ""
+"Las hierbas flotantes asfixian los cursos de agua y dañan los ecosistemas. "
+"Con la aplicación Floating Weeds, tus avistamientos ayudan a encontrar "
+"soluciones reales y a realizar un seguimiento por satélite."
 
 # Home page popup
 msgid ""
@@ -31,6 +35,9 @@ msgid ""
 "want to change the language go to \"Settings\" in the app menu and select "
 "\"Language\"."
 msgstr ""
+"El idioma por defecto será el de los ajustes de tu teléfono. Si quieres "
+"cambiar el idioma, ve a «Ajustes» en el menú de la aplicación y selecciona "
+"«Idioma»."
 
 # Button title
 msgid "Back"
@@ -293,23 +300,23 @@ msgstr "Registrarse/Iniciar sesión"
 
 # Part of User authentication page
 msgid "Login"
-msgstr ""
+msgstr "Iniciar sesión"
 
 # Part of User authentication page
 msgid "Register"
-msgstr ""
+msgstr "Registrarse"
 
 # Part of User authentication page
 msgid "Sign in"
-msgstr ""
+msgstr "Iniciar sesión"
 
 # Part of User authentication page
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 # Part of User authentication page
 msgid "Surname"
-msgstr ""
+msgstr "Apellido"
 
 # Part of User authentication page
 msgid "Reset"
@@ -424,19 +431,19 @@ msgstr ""
 
 # Survey page
 msgid "Map Settings"
-msgstr ""
+msgstr "Configuración del mapa"
 
 # Survey page
 msgid "Map Type"
-msgstr ""
+msgstr "Tipo de mapa"
 
 # Survey page
 msgid "Standard"
-msgstr ""
+msgstr "Estándar"
 
 # Survey page
 msgid "Satellite"
-msgstr ""
+msgstr "Satélite"
 
 # Survey camera options
 msgid "Gallery"
@@ -591,12 +598,14 @@ msgstr ""
 
 # Survey page
 msgid "Add species"
-msgstr ""
+msgstr "Añadir especies"
 
 # Survey page
 msgid ""
 "Your species list is empty. <br/> tap the \"Add species\" button to add one."
 msgstr ""
+"Su lista de especies está vacía. <br/> Pulse el botón \"Añadir especies\" "
+"para añadir una."
 
 # Survey page
 msgid "What activities are done at this location?"
@@ -604,51 +613,51 @@ msgstr "¿Qué actividades se hacen en este lugar?"
 
 # Survey page
 msgid "Species"
-msgstr ""
+msgstr "Especies"
 
 # Survey page
 msgid "Nile cabbage (Pistia stratiates)"
-msgstr ""
+msgstr "Repollo del Nilo (Pistia stratiates)"
 
 # Survey page
 msgid "Papyrus (Cyperus papyrus)"
-msgstr ""
+msgstr "Papiro (Cyperus papyrus)"
 
 # Survey page
 msgid "Water ferns (Azolla sp.)"
-msgstr ""
+msgstr "Helechos acuáticos (Azolla sp.)"
 
 # Survey page
 msgid "Water hyacinth (Pontederia crassipes)"
-msgstr ""
+msgstr "Jacinto de agua (Pontederia crassipes)"
 
 # Survey page
 msgid "Water Lettuce (Pistia stratiotes)"
-msgstr ""
+msgstr "Lechuga de agua (Pistia stratiotes)"
 
 # Survey page
 msgid "Watermosses (Salvinia sp.)"
-msgstr ""
+msgstr "Musgos de agua flotante (Salvinia sp.)"
 
 # Survey page
 msgid "Edit Species"
-msgstr ""
+msgstr "Editar especies"
 
 # Survey page
 msgid "Quantity"
-msgstr ""
+msgstr "Cantidad"
 
 # Survey page
 msgid "Certainty"
-msgstr ""
+msgstr "Certidumbre"
 
 # Survey page
 msgid "Papyrus"
-msgstr ""
+msgstr "Papiro"
 
 # Survey page
 msgid "Report incomplete"
-msgstr ""
+msgstr "Informe incompleto"
 
 # Survey page
 msgid "Got it"
@@ -656,59 +665,59 @@ msgstr "¡Entendido!"
 
 # Survey page
 msgid "Please add at least one photo of the species"
-msgstr ""
+msgstr "Añada al menos una foto de la especie"
 
 # Survey page
 msgid "Please add at least one species"
-msgstr ""
+msgstr "Añada al menos una especie"
 
 # Survey page
 msgid "Water ferns"
-msgstr ""
+msgstr "Helechos acuáticos"
 
 # Survey page
 msgid "Nile cabbage"
-msgstr ""
+msgstr "Repollo del Nilo"
 
 # Survey page
 msgid "Pistia stratiates"
-msgstr ""
+msgstr "Pistia stratiates"
 
 # Survey page
 msgid "Cyperus papyrus"
-msgstr ""
+msgstr "Cyperus papyrus"
 
 # Survey page
 msgid "Azolla sp."
-msgstr ""
+msgstr "Azolla sp."
 
 # Survey page
 msgid "Water hyacinth"
-msgstr ""
+msgstr "Jacinto de agua"
 
 # Survey page
 msgid "Pontederia crassipes"
-msgstr ""
+msgstr "Pontederia crassipes"
 
 # Survey page
 msgid "Water Lettuce"
-msgstr ""
+msgstr "Lechuga de agua"
 
 # Survey page
 msgid "Pistia stratiotes"
-msgstr ""
+msgstr "Pistia stratiotes"
 
 # Survey page
 msgid "Watermosses"
-msgstr ""
+msgstr "Musgos de agua flotante"
 
 # Survey page
 msgid "Salvinia sp."
-msgstr ""
+msgstr "Salvinia sp."
 
 # Info pages
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 # Info pages
 msgid "Info"
@@ -716,7 +725,7 @@ msgstr "Informaciónes"
 
 # Info pages
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 # Info pages
 msgid "What do we use your records for?"
@@ -732,17 +741,19 @@ msgstr "Aprobado por BRC"
 
 # Info pages
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Normas de Confidencialidad"
 
 # Info pages
 msgid "App"
-msgstr ""
+msgstr "Aplicación "
 
 # Info pages
 msgid ""
 "Are you sure you want to logout?<br/><br/>Your pending and uploaded "
 "<4>surveys will not be deleted </4> from this device."
 msgstr ""
+"¿Seguro que quieres cerrar sesión?<br/><br/>Tus <4>encuestas pendientes y "
+"cargadas no se eliminarán</4>de este dispositivo."
 
 # Info pages
 msgid ""
@@ -753,6 +764,12 @@ msgid ""
 " the different floating and emergent plants and look for patterns in their "
 "appearance."
 msgstr ""
+"Floating Weeds es una aplicación de ciencia ciudadana para informar de la "
+"presencia de hierbas flotantes como el jacinto de agua. Los registros que "
+"envíe ayudarán a orientar la vigilancia y erradicación de estas malas "
+"hierbas. Recibirá información sobre los registros que envíe; esto puede "
+"ayudarle a aprender a reconocer las diferentes plantas flotantes y "
+"emergentes y a buscar pautas en su apariencia."
 
 # Info pages
 msgid ""
@@ -764,6 +781,13 @@ msgid ""
 " block waterways and get tangled in boat propellers causing damage and "
 "disruption."
 msgstr ""
+"Además de enviar una imagen, el lugar y la fecha, le pedimos que confirme "
+"qué actividades generales realiza usted u otras personas en el agua o en sus"
+" alrededores (como pasear al perro, pescar o navegar en kayak). Mediante la "
+"recopilación de datos sobre las actividades realizadas esperamos entender "
+"mejor cómo afectan las hierbas flotantes al uso de las aguas dulces. Por "
+"ejemplo, las hierbas flotantes pueden obstruir los cursos de agua y "
+"enredarse en las hélices de las embarcaciones, causando daños y trastornos."
 
 # Info pages
 msgid ""
@@ -771,6 +795,10 @@ msgid ""
 "derived floating weed maps on the <2>Floating Weed Manager</2> portal. Your "
 "anonymised records will also be added to the portal’s map."
 msgstr ""
+"Sus registros nos ayudarán a verificar y mejorar la exactitud de nuestros "
+"mapas de hierbas flotantes obtenidos por satélite en el <2>portal Floating "
+"Weed Manager</2>. Sus registros anonimizados también se añadirán al mapa del"
+" portal."
 
 # Info pages
 msgid ""
@@ -781,6 +809,12 @@ msgid ""
 "research and other activities of benefit to the public, your contact details"
 " will not be shared."
 msgstr ""
+"Cuando usted envía un registro, éste se almacena en el sitio web de iRecord,"
+" donde se mostrará a los usuarios y será examinado y verificado por un "
+"experto. Sólo se harán públicos sus registros, no sus datos de contacto. "
+"Aunque los registros pueden ser recopilados y difundidos para su uso en "
+"educación, investigación científica y otras actividades de beneficio "
+"público, sus datos de contacto no serán compartidos."
 
 # Info pages
 msgid ""
@@ -792,16 +826,27 @@ msgid ""
 " eradicate floating weeds more efficiently, helping to keep canals and "
 "waterways clear.</4></0>"
 msgstr ""
+"<0><0> Para entender mejor el momento y la ubicación de las hierbas "
+"flotantes, lo que nos ayuda a entender cómo afecta el cambio climático a su "
+"crecimiento y distribución, y a predecir su impacto en el futuro. "
+"</0><br/><2>Para ayudar a las agencias medioambientales y a las empresas de "
+"agua a gestionar y prevenir los riesgos relacionados con la calidad del agua"
+" y las hierbas flotantes.</2><br/><4> Para ayudar a controlar y erradicar "
+"las hierbas flotantes de forma más eficaz, contribuyendo a mantener limpios "
+"los canales y las vías navegables.</4></0>"
 
 # Info pages
 msgid ""
 "The project would like to thank UKCEH, KMFRI and USACE for their advice and "
 "guidance during the development of the app."
 msgstr ""
+"El proyecto desea agradecer a UKCEH, KMFRI y USACE por su consejo y "
+"orientación durante el desarrollo de la aplicación."
 
 # Info pages
 msgid "We are grateful to all the people that helped to create this app:"
 msgstr ""
+"Agradecemos a todas las personas que han ayudado a crear esta aplicación:"
 
 # Info pages
 msgid ""
@@ -809,10 +854,14 @@ msgid ""
 "(UKCEH)</2><3>France Gerard (UKCEH)</3><4>Emma Tebbs (KCL)</4><5>Winnifred "
 "Owoko (KCL)</5><6>Karolis Kazlauskis (Flumens)</6></0>"
 msgstr ""
+"<0><0>Kate Randall (UKCEH)</0><1>Gemma Nash (UKCEH)</1><2>Linda May "
+"(UKCEH)</2><3>France Gerard (UKCEH)</3><4>Emma Tebbs (KCL)</4><5>Winnifred "
+"Owoko (KCL)</5><6>Karolis Kazlauskis (Flumens)</6></0>"
 
 # Info pages
 msgid "Home photo by <2>DEBRAJ PURKAYASTHA</2> on <6>Unsplash</6>"
 msgstr ""
+"Foto de página de inicio de <2>DEBRAJ PURKAYASTHA</2> en <6>Unsplash</6>"
 
 # Info pages
 msgid ""
@@ -821,6 +870,11 @@ msgid ""
 "science and community focussed solutions. For suggestions and feedback "
 "please do not hesitate to <7>contact us</7>."
 msgstr ""
+"<0><0><0></0></0></0>Esta aplicación ha sido creada con amor por <3>Flumens."
+" </3>Una consultoría técnica que destaca en la creación de soluciones a "
+"medida centradas en la comunidad y la ciencia medioambiental. Para "
+"sugerencias y comentarios, no dude en ponerse en <7>contacto</7> con "
+"nosotros."
 
 # Info pages
 msgid ""
@@ -895,19 +949,19 @@ msgstr ""
 
 # Info pages
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 # Info pages
 msgid "Share with app developers"
-msgstr ""
+msgstr "Compartir con desarrolladores de aplicaciones"
 
 # Info pages
 msgid "Export database"
-msgstr ""
+msgstr "Exportar base de datos"
 
 # Info pages
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 # Info pages
 msgid ""
@@ -915,61 +969,70 @@ msgid ""
 "for technical support and is not a supported method for exporting your "
 "data</1>"
 msgstr ""
+"¿Está seguro de que desea exportar los datos?<1> Esta función está destinada"
+" exclusivamente a la asistencia técnica y no es un método admitido para "
+"exportar sus datos</1>"
 
 # Info pages
 msgid "Menu"
-msgstr ""
+msgstr "Menú "
 
 # Verification pages
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 # Verification pages
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 # Verification pages
 msgid "Not accepted as correct"
-msgstr ""
+msgstr "No se acepta como correcto"
 
 # Verification pages
 msgid "Verification"
-msgstr ""
+msgstr "Verificación"
 
 # Verification pages
 msgid ""
 "Thanks for sending in your record. From this record details, we think it "
 "could be the <1>{{taxonName}}</1> species."
 msgstr ""
+"Gracias por enviar su registro. Por los detalles de este registro, creemos "
+"que podría tratarse de la especie <1>{{taxonName}}</1>"
 
 # Verification pages
 msgid ""
 "Thanks for sending in your record. A verifier has marked it as "
 "<2>\"{{statusMessage}}\"</2> in this case."
 msgstr ""
+"Gracias por enviar su registro. Un verificador lo ha marcado como "
+"<2>\"{{statusMessage}}\"</2> en este caso."
 
 # Verification pages
 msgid ""
 "Please log in to the iRecord website to see any additional information that "
 "the verifier may have provided."
 msgstr ""
+"Inicie sesión en el sitio web de iRecord para ver cualquier información "
+"adicional que el verificador pueda haber facilitado."
 
 # Verification pages
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 # Verification pages
 msgid "Verified by:"
-msgstr ""
+msgstr "Verificado por:"
 
 # Verification pages
 msgid "Verified on:"
-msgstr ""
+msgstr "Verificado el:"
 
 # Verification pages
 msgid "Accepted as correct"
-msgstr ""
+msgstr "Aceptado como correcto"
 
 # Verification pages
 msgid "Thanks for sending in your record."
-msgstr ""
+msgstr "Gracias por enviar su registro. "
