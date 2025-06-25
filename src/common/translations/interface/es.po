@@ -610,10 +610,9 @@ msgstr "Añadir especies"
 
 # Survey page
 msgid ""
-"Your species list is empty. <br/> tap the \"Add species\" button to add one."
+"Your species list is empty. <br/> tap the \"Add species\" — you can add "
+"multiple entries."
 msgstr ""
-"Su lista de especies está vacía. <br/> Pulse el botón \"Añadir especies\" "
-"para añadir una."
 
 # Survey page
 msgid "What activities are done at this location?"

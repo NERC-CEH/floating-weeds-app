@@ -175,8 +175,8 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
 
       {!hasSpecies && (
         <InfoBackgroundMessage>
-          Your species list is empty. <br /> tap the "Add species" button to add
-          one.
+          Your species list is empty. <br /> tap the "Add species" — you can add
+          multiple entries.
         </InfoBackgroundMessage>
       )}
     </Main>

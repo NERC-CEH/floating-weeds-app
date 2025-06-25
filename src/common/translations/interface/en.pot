@@ -575,8 +575,8 @@ msgid "Add species"
 msgstr "Add species"
 
 # Survey page 
-msgid "Your species list is empty. <br/> tap the \"Add species\" button to add one."
-msgstr "Your species list is empty. <br/> tap the \"Add species\" button to add one."
+msgid "Your species list is empty. <br/> tap the \"Add species\" — you can add multiple entries."
+msgstr "Your species list is empty. <br/> tap the \"Add species\" — you can add multiple entries."
 
 # Survey page 
 msgid "What activities are done at this location?"
