@@ -787,6 +787,10 @@ msgid ""
 "derived floating weed maps on the <2>Floating Weed Manager</2> portal. Your "
 "anonymised records will also be added to the portal’s map."
 msgstr ""
+"Rekodi zako zitatusaidia kuthibitisha na kuboresha usahihi wa ramani zetu za"
+" magugu zinazoelea zinazotokana na setilaiti kwenye  <2>Lango la msimamizi "
+"wa magugu yanayoelea</2> Rekodi zako ambazo hazikutambulisha zitaongezwa "
+"kwenye ramani ya tovuti hiyo."
 
 # Info pages
 msgid ""
@@ -797,6 +801,12 @@ msgid ""
 "research and other activities of benefit to the public, your contact details"
 " will not be shared."
 msgstr ""
+"Unapowasilisha rekodi, huhifadhiwa ndani ya tovuti ya iRecord ambapo "
+"itaonyeshwa kwa watumiaji, na kuchunguzwa na kuthibitishwa na mtaalamu. "
+"Rekodi zako pekee ndizo zinazopatikana kwa umma, sio maelezo yako ya "
+"mawasiliano. Ingawa rekodi zinaweza kukusanywa na kusambazwa kwa matumizi ya"
+" elimu, utafiti wa kisayansi na shughuli nyingine za manufaa kwa umma, "
+"maelezo yako ya mawasiliano hayatashirikiwa."
 
 # Info pages
 msgid ""
@@ -808,16 +818,26 @@ msgid ""
 " eradicate floating weeds more efficiently, helping to keep canals and "
 "waterways clear.</4></0>"
 msgstr ""
+"<0><0>Ili kupata ufahamu bora wa muda na eneo la magugu yanayoelea; hii "
+"hutusaidia kuelewa jinsi mabadiliko ya hali ya hewa yanavyoathiri ukuaji na "
+"usambazaji wao, na husaidia kutabiri athari za siku zijazo. "
+"</0><br/><2>Kusaidia mashirika ya mazingira na makampuni ya maji katika "
+"ubora wa maji na usimamizi na kuzuia hatari ya magugu "
+"yanayoelea.</2><br/><4>Ili kusaidia kufuatilia na kutokomeza magugu "
+"yanayoelea kwa ufanisi zaidi, kusaidia kuweka mifereji na njia za maji "
+"wazi.</4></0>"
 
 # Info pages
 msgid ""
 "The project would like to thank UKCEH, KMFRI and USACE for their advice and "
 "guidance during the development of the app."
 msgstr ""
+"Mradi ungependa kuwashukuru UKCEH, KMFRI na USACE kwa ushauri na mwongozo "
+"wao wakati wa kuunda programu."
 
 # Info pages
 msgid "We are grateful to all the people that helped to create this app:"
-msgstr ""
+msgstr "Tunawashukuru watu wote waliosaidia kuunda programu hii:"
 
 # Info pages
 msgid ""
@@ -825,10 +845,15 @@ msgid ""
 "(UKCEH)</2><3>France Gerard (UKCEH)</3><4>Emma Tebbs (KCL)</4><5>Winnifred "
 "Owoko (KCL)</5><6>Karolis Kazlauskis (Flumens)</6></0>"
 msgstr ""
+"<0><0>Kate Randall (UKCEH)</0><1>Gemma Nash (UKCEH)</1><2>Linda May "
+"(UKCEH)</2><3>France Gerard (UKCEH)</3><4>Emma Tebbs (KCL)</4><5>Winnifred "
+"Owoko (KCL)</5><6>Karolis Kazlauskis (Flumens)</6></0>"
 
 # Info pages
 msgid "Home photo by <2>DEBRAJ PURKAYASTHA</2> on <6>Unsplash</6>"
 msgstr ""
+"Picha ya mwanzo au nyumbani na <2>DEBRAJ PURKAYASTHA</2> "
+"kwenye<6>pasiponyunyiza</6>"
 
 # Info pages
 msgid ""
@@ -837,6 +862,10 @@ msgid ""
 "science and community focussed solutions. For suggestions and feedback "
 "please do not hesitate to <7>contact us</7>."
 msgstr ""
+"<0><0><0></0></0></0>Programu hii iliundwa kwa mkono kwa upendo "
+"na<3>Flumens.</3>Mshauri wa kiufundi ambaye hufaulu katika kujenga sayansi "
+"ya mazingira iliyopendekezwa na masuluhisho yaliyolengwa na jamii. Kwa "
+"mapendekezo na maoni tafadhali usisite ku <7>wasiliana nasi</7>."
 
 # Info pages
 msgid ""
@@ -858,16 +887,16 @@ msgid ""
 "of iRecord.</0><1>Quality assured data is passed onto Local Environmental "
 "Records Centres, National Recording Schemes and to the NBN Gateway.</1></1>"
 msgstr ""
-"Nembo hii inaonyesha kuwa data zako: 1 2 zinatumwa kwa Kituo cha Kurekodi "
-"Data za Kibiolojia (BRC) kupitia mfumo wa iRecord, ambapo zitapatikana kwako"
-" kama mrekodi, kwa jamii ya wataalamu wanaothibitisha data na kwa watumiaji "
-"wengine wa iRecord. 2 3 Data zilizo na uhakika wa ubora hutumwa kwa: Vituo "
-"vya Kumbukumbu za Mazingira vya Mitaa, Mipango ya Kitaifa ya Kurekodi Aina "
-"za Viumbe, Mfumo wa Taifa wa Biodiversity (NBN Gateway) 3 1 "
+"Nembo hii inaonyesha kuwa data yako ime:<1><0>Imetumwa kwa ghala la data la "
+"Kituo cha Rekodi za Biolojia iliyounganishwa na mfumo wa iRecord ambapo "
+"unaweza kuipata kama kinasa sauti, kwa jumuiya ya wataalamu wa "
+"wathibitishaji na watumiaji wengine wa iRecord.</0><1>Data iliyohakikishwa "
+"ubora hupitishwa kwenye Vituo vya Rekodi za Mazingira za Mitaa, Miradi ya "
+"Kitaifa ya Kurekodi na kwa Lango la NBN.</1></1>"
 
 # Info pages
 msgid "About BRC"
-msgstr "Kuhusu Kituo cha Kurekodi Data za Kibiolojia (BRC)"
+msgstr "Kuhusu BRC"
 
 # Info pages
 msgid ""
@@ -879,17 +908,13 @@ msgid ""
 "for Ecology & Hydrology (UKCEH). The work of BRC is a major BRC of the "
 "National Biodiversity Network (NBN)."
 msgstr ""
-"Kituo cha Kurekodi Data za Kibiolojia (BRC) BRC, kilichoanzishwa mwaka 1964,"
-" ni kituo kikuu nchini Uingereza kwa ajili ya kurekodi spishi za viumbe vya "
-"nchi kavu na maji safi. Inafanya kazi kwa karibu na jamii za kurekodi data "
-"kwa hiari, hasa kwa kuunga mkono mipango ya kitaifa ya kurekodi spishi na "
-"jumuiya za kisayansi. BRC inasaidiwa na Kamati ya Pamoja ya Uhifadhi wa "
-"Mazingira (JNCC) na Kituo cha Ikolojia na Hydrology cha Uingereza (UKCEH). "
-"Utakapokua ukitumia programu yetu, unaweza kugundua kuwa baadhi ya programu "
-"za BRC zinaonyesha spishi zilezile? Tumetambulisha nembo ya BRC Approved ili"
-" kuhakikisha kuwa data kutoka kwa programu zetu zote zinaenda mahali pamoja."
-" Una uhuru wa kuchagua programu yoyote kurekodi spishi, na rekodi zote "
-"zitahifadhiwa katika mfumo uleule na kufuata viwango vya ubora vya BRC."
+" <1>Kituo cha Rekodi za Biolojia</1> (BRC), kilichoanzishwa mwaka 1964, ni "
+"kituo kikuu nchini Uingereza kwa ajili ya kurekodi spishi au aina za viumbe "
+"ardhini na maji safi. BRC hufanya kazi kwa karibu na jumuiya ya kurekodi kwa"
+" hiari, hasa kupitia usaidizi wa mipango ya kitaifa ya kurekodi na jamii. "
+"BRC inaungwa mkono na Kamati ya Pamoja ya Uhifadhi wa Mazingira (JNCC) na "
+"Kituo cha Ikolojia na Hydrology (UKCEH). Kazi ya BRC ni BRC kuu ya Mtandao "
+"wa Kitaifa wa Bioanuwai (NBN)."
 
 # Info pages
 msgid "Which app should I use?"
@@ -904,11 +929,12 @@ msgid ""
 " same place, treated in the same way and will meet the established standards"
 " required by the Biological Record Centre."
 msgstr ""
-"Utakapokua ukitumia programu yetu, unaweza kugundua kuwa baadhi ya programu "
-"za BRC zinaonyesha spishi zilezile? Tumetambulisha nembo ya BRC Approved ili"
-" kuhakikisha kuwa data kutoka kwa programu zetu zote zinaenda mahali pamoja."
-" Una uhuru wa kuchagua programu yoyote kurekodi spishi, na rekodi zote "
-"zitahifadhiwa katika mfumo uleule na kufuata viwango vya ubora vya BRC."
+"Unaweza kuwa uligundua kwamba kadhaa ya<1> programu za BRC </1> zinaonyesha "
+"baadhi ya aina zilezile? Tumeanzisha nembo Iliyoidhinishwa na BRC ili "
+"kuashiria kuwa data kutoka kwa programu zetu zote huenda mahali pamoja. Kwa "
+"hivyo, uko huru kuchagua programu unayotumia kurekodi aina fulani. Rekodi "
+"zote zitatumwa mahali pamoja, zitachukuliwa kwa njia sawa na zitafikia "
+"viwango vilivyowekwa vinavyohitajika na Kituo cha Rekodi za Biolojia."
 
 # Info pages
 msgid "Swahili"
@@ -932,6 +958,9 @@ msgid ""
 "for technical support and is not a supported method for exporting your "
 "data</1>"
 msgstr ""
+"Je, una uhakika unataka kuhamisha data?<1>Kipengele hiki kimekusudiwa kwa "
+"usaidizi wa kiufundi pekee na si mbinu inayotumika ya kuhamisha data "
+"yako</1>"
 
 # Info pages
 msgid "Menu"
@@ -958,35 +987,41 @@ msgid ""
 "Thanks for sending in your record. From this record details, we think it "
 "could be the <1>{{taxonName}}</1> species."
 msgstr ""
+"Asante kwa kutumia rekodi yako. Kutoka kwa maelezo ya rekodi hii, tunafikiri"
+" inaweza kuwa<1>{{jina jumla ya kisayansi}}</1> aina."
 
 # Verification pages
 msgid ""
 "Thanks for sending in your record. A verifier has marked it as "
 "<2>\"{{statusMessage}}\"</2> in this case."
 msgstr ""
+"Asante kwa kutuma rekodi yako. Kithibitishaji kimeiweka alama kama "
+"<2>\"{{ujumbe wa kuonyesha hali}}\"</2> kwa wakati huu."
 
 # Verification pages
 msgid ""
 "Please log in to the iRecord website to see any additional information that "
 "the verifier may have provided."
 msgstr ""
+"Tafadhali ingia kwenye tovuti ya iRecord ili kuona maelezo yoyote ya ziada "
+"ambayo mthibitishaji anaweza kuwa ametoa."
 
 # Verification pages
 msgid "Details"
-msgstr ""
+msgstr "Maelezo"
 
 # Verification pages
 msgid "Verified by:"
-msgstr ""
+msgstr "Imethibitishwa na:"
 
 # Verification pages
 msgid "Verified on:"
-msgstr ""
+msgstr "Imethibitishwa mnamo:"
 
 # Verification pages
 msgid "Accepted as correct"
-msgstr ""
+msgstr "Imekubaliwa kama sahihi"
 
 # Verification pages
 msgid "Thanks for sending in your record."
-msgstr ""
+msgstr "Asante kwa kutuma rekodi yako."
