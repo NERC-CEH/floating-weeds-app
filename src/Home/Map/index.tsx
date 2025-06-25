@@ -69,12 +69,12 @@ const HomeMap = () => {
 
   const longPeriodToggle = (
     <>
-      <IonButton onClick={showDurationOfRecordsAlert}>
-        <IonIcon slot="icon-only" icon={helpCircleOutline} />
-      </IonButton>
       <IonLabel className="text-black">
         <T>See past 12 months</T>
       </IonLabel>
+      <IonButton onClick={showDurationOfRecordsAlert}>
+        <IonIcon slot="icon-only" icon={helpCircleOutline} />
+      </IonButton>
       <IonToggle
         className="long-period-toggle"
         color="light"
