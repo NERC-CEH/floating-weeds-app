@@ -424,6 +424,14 @@ msgstr "Elige un método para subir una foto"
 msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
 msgstr "No se ha añadido ninguna foto. <br/>Pulsa<4><0></0></4>para añadir"
 
+# Camera empty input message
+msgid "No landscape photo has been added."
+msgstr ""
+
+# Camera empty input message
+msgid "No species photo has been added."
+msgstr ""
+
 # Survey page
 msgid "Location name e.g. lake, reservoir or pond name"
 msgstr ""

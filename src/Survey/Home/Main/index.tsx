@@ -108,7 +108,14 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
         )}
 
         <div className="rounded-list">
-          <PhotoPicker model={sample} />
+          <PhotoPicker
+            model={sample}
+            placeholder={
+              <div className="p-3">
+                <T>No landscape photo has been added.</T>
+              </div>
+            }
+          />
         </div>
 
         <div className="rounded-list">

@@ -419,6 +419,14 @@ msgstr " Chagua njia ya kupakia picha"
 msgid "No photo has been added.<br/>Press <4><0></0></4> to add."
 msgstr "Hakuna picha iliyoongezwa.<br/>Bonyeza <4><0></0></4> ili kuongeza."
 
+# Camera empty input message
+msgid "No landscape photo has been added."
+msgstr ""
+
+# Camera empty input message
+msgid "No species photo has been added."
+msgstr ""
+
 # Survey page
 msgid "Location name e.g. lake, reservoir or pond name"
 msgstr " Jina la eneo, mfano: ziwa, bwawa au dimbwi "

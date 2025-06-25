@@ -1,4 +1,5 @@
 import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
 import { useRouteMatch } from 'react-router';
 import { Block, Main, MenuAttrItem } from '@flumens';
 import { IonList } from '@ionic/react';
@@ -36,7 +37,14 @@ const OccurrenceMain = ({ sample, occurrence }: Props) => {
         )}
 
         <div className="rounded-list mb-2">
-          <PhotoPicker model={occurrence} />
+          <PhotoPicker
+            model={occurrence}
+            placeholder={
+              <div className="p-3">
+                <T>No species photo has been added.</T>
+              </div>
+            }
+          />
         </div>
 
         <div className="rounded-list">
