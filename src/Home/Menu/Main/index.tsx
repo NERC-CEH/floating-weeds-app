@@ -6,9 +6,9 @@ import {
   personAddOutline,
   lockClosedOutline,
   heartOutline,
-  informationCircleOutline,
   openOutline,
-  layersOutline,
+  bookOutline,
+  statsChartOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { Main, InfoMessage } from '@flumens';
@@ -102,16 +102,12 @@ const MenuMain = ({
         </h3>
         <div className="rounded-list">
           <IonItem routerLink="/info/about" detail>
-            <IonIcon
-              icon={informationCircleOutline}
-              size="small"
-              slot="start"
-            />
+            <IonIcon icon={bookOutline} size="small" slot="start" />
             <T>About</T>
           </IonItem>
 
           <IonItem routerLink="/info/records" detail>
-            <IonIcon icon={layersOutline} size="small" slot="start" />
+            <IonIcon icon={statsChartOutline} size="small" slot="start" />
             <T>What do we use your records for?</T>
           </IonItem>
 
