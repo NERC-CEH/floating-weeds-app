@@ -1,13 +1,16 @@
+import nileCabbage from 'common/images/species/nile cabbage.jpg';
 import papyrus from 'common/images/species/papyrus.jpg';
+import waterFerns from 'common/images/species/water ferns.jpg';
 import waterHyacinth from 'common/images/species/water hyacinth.jpg';
 import waterLettuce from 'common/images/species/water lettuce.jpg';
+import watermosses from 'common/images/species/watermosses.jpg';
 
 const species = [
   {
     commonName: 'Nile cabbage',
     scientificName: 'Pistia stratiates',
     warehouseId: '644716',
-    // image: img1,
+    image: nileCabbage,
   },
   {
     commonName: 'Papyrus',
@@ -19,7 +22,7 @@ const species = [
     commonName: 'Water ferns',
     scientificName: 'Azolla sp.',
     warehouseId: '644678',
-    // image: img1,
+    image: waterFerns,
   },
   {
     commonName: 'Water hyacinth',
@@ -38,7 +41,7 @@ const species = [
     commonName: 'Watermosses',
     scientificName: 'Salvinia sp.',
     warehouseId: '644720',
-    // image: img1,
+    image: watermosses,
   },
 ];
 
