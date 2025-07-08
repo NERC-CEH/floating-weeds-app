@@ -5,7 +5,7 @@ import {
   mapOutline,
   layersOutline,
   menuOutline,
-  bookmarkOutline,
+  pricetagsOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { Route, Redirect } from 'react-router-dom';
@@ -90,7 +90,7 @@ const HomeComponent = () => {
           </IonTabButton>
 
           <IonTabButton tab="/home/guide" href="/home/guide">
-            <IonIcon icon={bookmarkOutline} />
+            <IonIcon icon={pricetagsOutline} />
           </IonTabButton>
 
           <IonTabButton tab="menu" href="/home/menu">
