@@ -37,7 +37,7 @@ const LoginMain = ({ onSubmit }: Props) => {
           <T>Welcome back</T>
         </h1>
         <h2 className="-mt-5 text-center">
-          <T>Sign in to your account to start</T>
+          <T>Sign in to your iRecord account to start</T>
         </h2>
 
         <form onSubmit={handleSubmit(onSubmit)}>

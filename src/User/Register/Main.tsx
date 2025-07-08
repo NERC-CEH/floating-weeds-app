@@ -36,7 +36,7 @@ const RegisterMain = ({ onSubmit }: Props) => {
     <Main>
       <div className="mx-auto max-w-md px-3">
         <h1 className="my-10 text-center">
-          <T>Create a free account</T>
+          <T>Create a free iRecord account</T>
         </h1>
 
         <form onSubmit={handleSubmit(onSubmit)} className="mt-8">
