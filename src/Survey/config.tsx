@@ -52,11 +52,13 @@ export const activitiesGroupAttr = {
 } as const satisfies GroupT;
 
 const certaintyValues = [
+  { title: 'Not confident', isPlaceholder: true, dataName: '' },
   { title: '1', dataName: '24102' },
   { title: '2', dataName: '24103' },
   { title: '3', dataName: '24104' },
   { title: '4', dataName: '24105' },
   { title: '5', dataName: '24106' },
+  { title: 'Confident', isPlaceholder: true, dataName: '' },
 ] as const;
 
 export const certaintyAttr = {

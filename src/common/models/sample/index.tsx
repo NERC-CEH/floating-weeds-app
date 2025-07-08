@@ -88,15 +88,15 @@ export default class Sample extends SampleOriginal<Attrs, Metadata> {
   }
 }
 
-export const useValidateCheck = (sample?: Sample) => {
+export const useValidateCheck = (model?: Sample | Occurrence) => {
   const alert = useAlert();
   const { t } = useTranslation();
 
   const showValidateCheck = () => {
-    const invalids = sample?.validateRemote();
+    const invalids = model?.validateRemote();
     if (invalids) {
       alert({
-        header: t('Report incomplete'),
+        header: t('Incomplete'),
         skipTranslation: true,
         message: <ModelValidationMessage {...invalids} />,
         buttons: [

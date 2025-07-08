@@ -1,6 +1,7 @@
 /* eslint-disable @getify/proper-arrows/name */
 import { Route } from 'react-router-dom';
 import { AttrPage, withSample } from '@flumens';
+import Activities from './Activities';
 import Home from './Home';
 import Location from './Location';
 import OccurrenceHome from './OccurrenceHome';
@@ -17,6 +18,7 @@ const routes = [
   [`${baseURL}/:smpId/`, Home],
 
   [`${baseURL}/:smpId/:attr`, withSample(AttrPageFromRoute)],
+  [`${baseURL}/:smpId/activities`, withSample(Activities)],
   [`${baseURL}/:smpId/location`, Location],
   [`${baseURL}/:smpId/species`, withSample(Species)],
 
