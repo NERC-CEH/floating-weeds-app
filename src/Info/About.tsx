@@ -17,9 +17,10 @@ const Component: React.FC = () => (
         </P>
 
         <P>
-          As well as submitting an image, location and date, we ask you to
-          confirm what general activities you, or others, are carrying out in,
-          or around, the water (such as dog walking, fishing, kayaking). By
+          Please submit an overview photo of the waterway if applicable as well
+          as submitting an image per species, location and date. We also ask you
+          to confirm what general activities you, or others, are carrying out
+          in, or around, the water (such as dog walking, fishing, kayaking). By
           gathering details of activities undertaken we hope to gain a better
           understanding of how floating weeds are affecting the use of
           freshwaters. For example, floating weeds can block waterways and get

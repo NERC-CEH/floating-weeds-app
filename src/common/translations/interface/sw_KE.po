@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Karolis, 2025
 # Patrick Otuo Wanguche, 2025
+# Karolis, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Patrick Otuo Wanguche, 2025\n"
+"Last-Translator: Karolis, 2025\n"
 "Language-Team: Swahili (Kenya) (https://app.transifex.com/ceh/teams/269467/sw_KE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -772,13 +772,14 @@ msgstr ""
 
 # Info pages
 msgid ""
-"As well as submitting an image, location and date, we ask you to confirm "
-"what general activities you, or others, are carrying out in, or around, the "
-"water (such as dog walking, fishing, kayaking). By gathering details of "
-"activities undertaken we hope to gain a better understanding of how floating"
-" weeds are affecting the use of freshwaters. For example, floating weeds can"
-" block waterways and get tangled in boat propellers causing damage and "
-"disruption."
+"Please submit an overview photo of the waterway if applicable as well as "
+"submitting an image per species, location and date. We also ask you to "
+"confirm what general activities you, or others, are carrying out in, or "
+"around, the water (such as dog walking, fishing, kayaking). By gathering "
+"details of activities undertaken we hope to gain a better understanding of "
+"how floating weeds are affecting the use of freshwaters. For example, "
+"floating weeds can block waterways and get tangled in boat propellers "
+"causing damage and disruption."
 msgstr ""
 "Pamoja na kuwasilisha picha, eneo na tarehe, tunakuomba uthibitishe ni "
 "shughuli zipi za jumla ambazo wewe, au wengine, mnafanya ndani, au karibu na"
