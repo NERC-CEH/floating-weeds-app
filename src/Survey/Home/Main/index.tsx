@@ -108,17 +108,6 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
         )}
 
         <div className="rounded-list">
-          <PhotoPicker
-            model={sample}
-            placeholder={
-              <div className="p-3">
-                <T>No landscape photo has been added.</T>
-              </div>
-            }
-          />
-        </div>
-
-        <div className="rounded-list">
           <MenuAttrItem
             routerLink={`${match.url}/location`}
             value={prettyGridRef}
@@ -179,6 +168,17 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
           multiple entries.
         </InfoBackgroundMessage>
       )}
+
+      <div className="rounded-list mx-3 mb-16">
+        <PhotoPicker
+          model={sample}
+          placeholder={
+            <div className="p-3">
+              <T>No landscape photo has been added.</T>
+            </div>
+          }
+        />
+      </div>
     </Main>
   );
 };
