@@ -6,6 +6,7 @@ import { NavContext } from '@ionic/react';
 import species from 'common/species';
 import Occurrence, { Taxon } from 'models/occurrence';
 import Sample from 'models/sample';
+import { otherSpeciesAttr } from './config';
 
 type Props = {
   sample: Sample;
@@ -13,8 +14,11 @@ type Props = {
 };
 
 const mapSpeciesToOption = (s: any) => ({
-  label: `${s.commonName} (${s.scientificName})`,
+  label: s.scientificName
+    ? `${s.commonName} (${s.scientificName})`
+    : s.commonName,
   value: s.warehouseId,
+  className: s.className,
 });
 
 const Species = ({ sample, occurrence }: Props) => {
@@ -48,7 +52,10 @@ const Species = ({ sample, occurrence }: Props) => {
       return;
     }
 
-    Object.assign(occurrence.data, { taxon });
+    Object.assign(occurrence.data, {
+      taxon,
+      [otherSpeciesAttr.id]: undefined, // remove the linked value for other species if a new species is selected
+    });
 
     sample.save();
 

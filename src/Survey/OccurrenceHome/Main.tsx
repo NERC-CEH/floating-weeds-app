@@ -3,11 +3,17 @@ import { Trans as T } from 'react-i18next';
 import { useRouteMatch } from 'react-router';
 import { Block, Main, MenuAttrItem } from '@flumens';
 import { IonList } from '@ionic/react';
+import { OTHER_SPECIES_ID } from 'common/species';
 import Occurrence from 'models/occurrence';
 import Sample from 'models/sample';
 import PhotoPicker from 'Survey/Components/PhotoPicker';
 import VerificationMessage from 'Survey/Components/VerificationMessage';
-import { certaintyAttr, commentAttr, quantityAttr } from 'Survey/config';
+import {
+  certaintyAttr,
+  commentAttr,
+  quantityAttr,
+  otherSpeciesAttr,
+} from 'Survey/config';
 import './styles.scss';
 
 type Props = {
@@ -26,6 +32,8 @@ const OccurrenceMain = ({ sample, occurrence }: Props) => {
 
   const sampleBaseUrl = url.split('/occ');
   sampleBaseUrl.pop();
+
+  const isOtherSpecies = occurrence.data.taxon.warehouseId === OTHER_SPECIES_ID;
 
   return (
     <Main id="occurrence-edit">
@@ -58,6 +66,9 @@ const OccurrenceMain = ({ sample, occurrence }: Props) => {
             label="Species"
             value={occurrence.data.taxon.commonName}
           />
+          {isOtherSpecies && (
+            <Block block={otherSpeciesAttr} {...recordAttrs} />
+          )}
 
           <Block block={commentAttr} {...recordAttrs} />
         </div>

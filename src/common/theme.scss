@@ -204,3 +204,8 @@ ion-item .sc-ion-label-ios-h.sc-ion-label-ios-s.ios[slot='end'] {
 .attr-page .choice-input-block .field-label {
   @apply pl-5;
 }
+
+/* pull the menu input values to the right */
+.text-input-block:not(.web) input {
+  text-align: right;
+}

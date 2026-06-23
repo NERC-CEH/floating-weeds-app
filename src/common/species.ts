@@ -1,11 +1,33 @@
+import brazilianWaterWeed from 'common/images/species/brazilian water weed.jpg';
+import hippoGrass from 'common/images/species/hippo grass.jpg';
+import hornwort from 'common/images/species/hornwort.jpg';
 import nileCabbage from 'common/images/species/nile cabbage.jpg';
 import papyrus from 'common/images/species/papyrus.jpg';
 import waterFerns from 'common/images/species/water ferns.jpg';
 import waterHyacinth from 'common/images/species/water hyacinth.jpg';
-import waterLettuce from 'common/images/species/water lettuce.jpg';
 import watermosses from 'common/images/species/watermosses.jpg';
 
+export const OTHER_SPECIES_ID = '709107';
+
 const species = [
+  {
+    commonName: 'Brazilian water weed',
+    scientificName: 'Eugelia densa',
+    warehouseId: '709104',
+    image: brazilianWaterWeed,
+  },
+  {
+    commonName: 'Hippo grass',
+    scientificName: 'Vossia cuspidata',
+    warehouseId: '709100',
+    image: hippoGrass,
+  },
+  {
+    commonName: 'Hornwort',
+    scientificName: 'Ceratophyllum demersum',
+    warehouseId: '709102',
+    image: hornwort,
+  },
   {
     commonName: 'Nile cabbage',
     scientificName: 'Pistia stratiates',
@@ -31,17 +53,21 @@ const species = [
     image: waterHyacinth,
   },
   {
-    commonName: 'Water Lettuce',
-    scientificName: 'Pistia stratiotes',
-    warehouseId: '644722',
-    image: waterLettuce,
-    author: 'Erick Noe Tapia Banda',
-  },
-  {
     commonName: 'Watermosses',
     scientificName: 'Salvinia sp.',
     warehouseId: '644720',
     image: watermosses,
+  },
+
+  {
+    commonName: 'Other',
+    warehouseId: OTHER_SPECIES_ID,
+  },
+
+  {
+    commonName: 'No weeds',
+    warehouseId: '709106',
+    className: 'mt-6',
   },
 ];
 

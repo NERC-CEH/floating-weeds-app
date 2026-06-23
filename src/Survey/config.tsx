@@ -13,6 +13,12 @@ export const commentAttr = {
   appearance: 'multiline',
 } as const satisfies TextInputT;
 
+export const otherSpeciesAttr = {
+  id: 'occAttr:1265',
+  type: 'textInput',
+  title: 'Other species',
+} as const satisfies TextInputT;
+
 const activitiesValues = [
   { title: 'Walking / Running', dataName: '10638' },
   { title: 'Dog-walking', dataName: '10639' },

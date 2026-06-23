@@ -5,10 +5,12 @@ import species from 'common/species';
 import Card from './Component/Card';
 import './styles.scss';
 
+const hasImage = (s: any) => s.image !== undefined;
+
 function Guide() {
-  const cards = species.map((sp: any) => (
-    <Card key={sp.warehouseId} species={sp} />
-  ));
+  const cards = species
+    .filter(hasImage)
+    .map((sp: any) => <Card key={sp.warehouseId} species={sp} />);
 
   return (
     <Page id="guide">
