@@ -85,8 +85,6 @@ msgstr "Share App Analytics"
 msgid "Cancel"
 msgstr "Cancel"
 
-
-
 # Start record draft title
 msgid "No uploaded records"
 msgstr "No uploaded records"
@@ -462,6 +460,10 @@ msgstr "OK, got it"
 msgid "Sorry"
 msgstr "Sorry"
 
+# Error messages from server
+msgid "Failed to upload. Please try again later."
+msgstr "Failed to upload. Please try again later."
+
 # Error messages from server for user account actions
 msgid "Unauthorized"
 msgstr "Unauthorized"
@@ -607,12 +609,36 @@ msgid "Water hyacinth (Pontederia crassipes)"
 msgstr "Water hyacinth (Pontederia crassipes)"
 
 # Survey page 
-msgid "Water Lettuce (Pistia stratiotes)"
-msgstr "Water Lettuce (Pistia stratiotes)"
-
-# Survey page 
 msgid "Watermosses (Salvinia sp.)"
 msgstr "Watermosses (Salvinia sp.)"
+
+# Survey page
+msgid "Brazilian water weed (Eugelia densa)"
+msgstr "Brazilian water weed (Eugelia densa)"
+
+# Survey page
+msgid "Hippo grass (Vossia cuspidata)"
+msgstr "Hippo grass (Vossia cuspidata)"
+
+# Survey page
+msgid "Hornwort (Ceratophyllum demersum)"
+msgstr "Hornwort (Ceratophyllum demersum)"
+
+# Survey page
+msgid "No weeds"
+msgstr "No weeds"
+
+# Survey page
+msgid "Not confident"
+msgstr "Not confident"
+
+# Survey page
+msgid "Confident"
+msgstr "Confident"
+
+# Survey page
+msgid "Other species"
+msgstr "Other species"
 
 # Survey page 
 msgid "Edit Species"

@@ -476,6 +476,10 @@ msgstr "Okey, entendido"
 msgid "Sorry"
 msgstr "Perdón"
 
+# Error messages from server
+msgid "Failed to upload. Please try again later."
+msgstr ""
+
 # Error messages from server for user account actions
 msgid "Unauthorized"
 msgstr "No autorizado"
@@ -642,12 +646,36 @@ msgid "Water hyacinth (Pontederia crassipes)"
 msgstr "Jacinto de agua (Pontederia crassipes)"
 
 # Survey page
-msgid "Water Lettuce (Pistia stratiotes)"
-msgstr "Lechuga de agua (Pistia stratiotes)"
-
-# Survey page
 msgid "Watermosses (Salvinia sp.)"
 msgstr "Musgos de agua flotante (Salvinia sp.)"
+
+# Survey page
+msgid "Brazilian water weed (Eugelia densa)"
+msgstr ""
+
+# Survey page
+msgid "Hippo grass (Vossia cuspidata)"
+msgstr ""
+
+# Survey page
+msgid "Hornwort (Ceratophyllum demersum)"
+msgstr ""
+
+# Survey page
+msgid "No weeds"
+msgstr ""
+
+# Survey page
+msgid "Not confident"
+msgstr ""
+
+# Survey page
+msgid "Confident"
+msgstr ""
+
+# Survey page
+msgid "Other species"
+msgstr ""
 
 # Survey page
 msgid "Edit Species"

@@ -470,6 +470,10 @@ msgstr "Sawa, nimeelewa"
 msgid "Sorry"
 msgstr "Samahani "
 
+# Error messages from server
+msgid "Failed to upload. Please try again later."
+msgstr ""
+
 # Error messages from server for user account actions
 msgid "Unauthorized"
 msgstr "Hujaruhusiwa"
@@ -635,12 +639,36 @@ msgid "Water hyacinth (Pontederia crassipes)"
 msgstr "Gugu maji (Pontederia crassipes)"
 
 # Survey page
-msgid "Water Lettuce (Pistia stratiotes)"
-msgstr "Nyasi ya maji (Pistia stratiotes)"
-
-# Survey page
 msgid "Watermosses (Salvinia sp.)"
 msgstr "Majimaji (Salvinia sp.)"
+
+# Survey page
+msgid "Brazilian water weed (Eugelia densa)"
+msgstr ""
+
+# Survey page
+msgid "Hippo grass (Vossia cuspidata)"
+msgstr ""
+
+# Survey page
+msgid "Hornwort (Ceratophyllum demersum)"
+msgstr ""
+
+# Survey page
+msgid "No weeds"
+msgstr ""
+
+# Survey page
+msgid "Not confident"
+msgstr ""
+
+# Survey page
+msgid "Confident"
+msgstr ""
+
+# Survey page
+msgid "Other species"
+msgstr ""
 
 # Survey page
 msgid "Edit Species"
