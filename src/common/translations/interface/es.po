@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Erica Zaja, 2025
 # Karolis, 2025
@@ -112,6 +111,10 @@ msgstr "No hay registros cargados"
 # Start record draft button label
 msgid "Discard"
 msgstr "Desechar"
+
+# Start record draft button label
+msgid "Start new"
+msgstr ""
 
 # Start record draft button label
 msgid "Continue"

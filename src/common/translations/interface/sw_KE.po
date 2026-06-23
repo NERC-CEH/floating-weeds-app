@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Patrick Otuo Wanguche, 2025
 # Karolis, 2025
@@ -110,6 +109,10 @@ msgstr "Hakuna rekodi zilizopakiwa"
 # Start record draft button label
 msgid "Discard"
 msgstr "Tupa"
+
+# Start record draft button label
+msgid "Start new"
+msgstr ""
 
 # Start record draft button label
 msgid "Continue"

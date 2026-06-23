@@ -96,6 +96,10 @@ msgid "Discard"
 msgstr "Discard"
 
 # Start record draft button label
+msgid "Start new"
+msgstr "Start new"
+
+# Start record draft button label
 msgid "Continue"
 msgstr "Continue"
 

@@ -19,17 +19,13 @@ async function showDraftAlert(alert: any) {
       backdropDismiss: false,
       buttons: [
         {
-          text: 'Discard',
-          handler: () => {
-            resolve(false);
-          },
+          text: 'Start new',
+          handler: () => resolve(false),
         },
         {
           text: 'Continue',
           cssClass: 'primary',
-          handler: () => {
-            resolve(true);
-          },
+          handler: () => resolve(true),
         },
       ],
     });
@@ -47,8 +43,6 @@ async function getDraft(draftIdKey: keyof SurveyDraftKeys, alert: any) {
       if (continueDraftRecord) {
         return draftSample;
       }
-
-      draftSample.destroy();
     }
   }
 
