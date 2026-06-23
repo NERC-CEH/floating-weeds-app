@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import { useRouteMatch } from 'react-router-dom';
-import { Page, Header, useAlert, useSample } from '@flumens';
+import { Page, Header, useAlert, useSample, useToast } from '@flumens';
 import { NavContext } from '@ionic/react';
 import appModel from 'common/models/app';
 import Sample, { useValidateCheck } from 'models/sample';
@@ -15,6 +15,7 @@ const SurveyHome = () => {
   const { navigate } = useContext(NavContext);
   const match = useRouteMatch();
   const alert = useAlert();
+  const toast = useToast();
   const { sample } = useSample<Sample>();
 
   const checkSampleStatus = useValidateCheck(sample);
@@ -83,7 +84,7 @@ const SurveyHome = () => {
     const isUserOK = await checkUserStatus();
     if (!isUserOK) return;
 
-    sample.saveRemote();
+    sample.saveRemote().catch(toast.error);
 
     navigate(`/home/surveys`, 'root');
   };

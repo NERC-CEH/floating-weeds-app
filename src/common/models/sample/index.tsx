@@ -73,6 +73,14 @@ export default class Sample extends SampleOriginal<Attrs, Metadata> {
     return this.survey;
   }
 
+  async saveRemote() {
+    try {
+      await super.saveRemote();
+    } catch (err) {
+      throw new Error('Failed to upload. Please try again later.');
+    }
+  }
+
   async upload() {
     if (this.remote.synchronising || this.isUploaded) return true;
 
