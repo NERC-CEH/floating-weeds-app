@@ -133,16 +133,11 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
             record={sample.data}
             isDisabled={isDisabled}
           />
-          {!isDisabled && (
-            <InfoMessage inline>
-              Please add any extra info about this record.
-            </InfoMessage>
-          )}
         </div>
       </IonList>
 
       {!isDisabled && (
-        <Button onPress={onAddSpecies} color="primary" className="mx-auto mb-8">
+        <Button onPress={onAddSpecies} color="primary" className="mx-auto mb-2">
           Add species
         </Button>
       )}
@@ -163,7 +158,7 @@ const SurveyMain = ({ sample, onAddSpecies }: Props) => {
       )}
 
       {!hasSpecies && (
-        <InfoBackgroundMessage>
+        <InfoBackgroundMessage className="my-5">
           Your species list is empty. <br /> tap the "Add species" — you can add
           multiple entries.
         </InfoBackgroundMessage>

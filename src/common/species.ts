@@ -11,6 +11,20 @@ export const OTHER_SPECIES_ID = '709107';
 
 const species = [
   {
+    commonName: 'Water hyacinth',
+    scientificName: 'Pontederia crassipes',
+    warehouseId: '644718',
+    image: waterHyacinth,
+  },
+  {
+    commonName: 'Papyrus',
+    scientificName: 'Cyperus papyrus',
+    warehouseId: '644714',
+    image: papyrus,
+    className: 'mb-6',
+  },
+
+  {
     commonName: 'Brazilian water weed',
     scientificName: 'Eugelia densa',
     warehouseId: '709104',
@@ -35,22 +49,10 @@ const species = [
     image: nileCabbage,
   },
   {
-    commonName: 'Papyrus',
-    scientificName: 'Cyperus papyrus',
-    warehouseId: '644714',
-    image: papyrus,
-  },
-  {
     commonName: 'Water ferns',
     scientificName: 'Azolla sp.',
     warehouseId: '644678',
     image: waterFerns,
-  },
-  {
-    commonName: 'Water hyacinth',
-    scientificName: 'Pontederia crassipes',
-    warehouseId: '644718',
-    image: waterHyacinth,
   },
   {
     commonName: 'Watermosses',
@@ -65,7 +67,7 @@ const species = [
   },
 
   {
-    commonName: 'No weeds',
+    commonName: 'No visible floating weeds',
     warehouseId: '709106',
     className: 'mt-6',
   },
