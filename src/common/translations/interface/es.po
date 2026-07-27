@@ -1075,3 +1075,12 @@ msgstr "Aceptado como correcto"
 # Verification pages
 msgid "Thanks for sending in your record."
 msgstr "Gracias por enviar su registro. "
+
+msgid ""
+"The <0>No visible floating weeds option</0> in the species list allows you "
+"to record when no floating weeds are present. These records help us validate"
+" satellite observations and improve our understanding of how weather and "
+"climate change affect the growth and spread of floating weeds. If you "
+"regularly visit a particular water body, please take a photo from the same "
+"location as often as you can."
+msgstr ""
